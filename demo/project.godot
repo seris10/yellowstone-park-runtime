@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="Yellowstone Park Runtime Fixture"
+run/main_scene="res://scenes/park_streaming_demo.tscn"
+config/features=PackedStringArray("4.5", "Mobile")
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=900
+[rendering]
+renderer/rendering_method="mobile"

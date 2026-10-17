@@ -1,0 +1,11 @@
+{
+  "repository": "seris10/yellowstone",
+  "commit": "c2b4c7923a6eeed61e2feca3946555826849ec67",
+  "engine_target": "Godot 4.5.1",
+  "verified_git_blobs": {
+    "yellowstone_midway/scripts/world.gd": "16729b56c7895a274cb8cb0a63df41ad7f8ed91f",
+    "yellowstone_midway/scripts/player.gd": "4cdaa7c1b57c43f519460494532e765a0e7781a4",
+    "yellowstone_midway/scripts/height_field.gd": "787c09eec60c793a27fbc552f50bd619ca2c6770",
+    "yellowstone_python/yellowstone_python/service/live/engine.py": "c475a58bc7e3480ca854f9d3fc2b7ff49680d055"
+  }
+}
