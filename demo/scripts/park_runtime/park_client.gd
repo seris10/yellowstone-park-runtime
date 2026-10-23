@@ -67,8 +67,13 @@ func _request(kind: String,payload: Dictionary) -> void:
 
 func _completed(result: int,code: int,_headers: PackedStringArray,body: PackedByteArray) -> void:
     _busy = false
-    var parsed: Variant = JSON.parse_string(body.get_string_from_utf8())
-    if result!=HTTPRequest.RESULT_SUCCESS or not parsed is Dictionary or code not in [200,202]:
+    if result!=HTTPRequest.RESULT_SUCCESS or code not in [200,202]:
+        connection_problem.emit("Park service unavailable or rejected request: HTTP %d" % code)
+        return
+    var parser := JSON.new()
+    var parse_error: Error = parser.parse(body.get_string_from_utf8())
+    var parsed: Variant = parser.data
+    if parse_error!=OK or not parsed is Dictionary:
         connection_problem.emit("Park service unavailable or rejected request: HTTP %d" % code)
         return
     var data: Dictionary = parsed

@@ -132,4 +132,7 @@ func _visit(d: Dictionary) -> Array[String]:
         else:
             provisional.append_array(_visit(child))
     # One ready parent OR a complete set of child covers, never partial replacement.
-    return provisional if all_ready else [key]
+    if all_ready:
+        return provisional
+    var fallback: Array[String] = [key]
+    return fallback

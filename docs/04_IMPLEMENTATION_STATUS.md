@@ -18,13 +18,14 @@ The test report records **34 passed** at the final package validation. See the
 final report for any subsequent additions/reruns. Scientific tests apply to the
 reference numerical fixture and orchestration contracts, not new park predictions.
 
-## Implemented GDScript, requiring local Godot validation
+## GDScript checks
 
 `world_frame.gd`, `terrain_job.gd`, `tile_visual.gd`, `demand_planner.gd`,
 `terrain_streamer.gd`, `vegetation_batch.gd`, `field_buffer.gd`, `park_client.gd`,
 `runtime_monitor.gd`, `streaming_demo.gd`, and the two test/benchmark scripts are
-provided as actual source. No Godot executable was available in the build sandbox.
-They have not been engine-compiled, physics-tested or GPU-profiled here.
+provided as source. Godot 4.5.1 has now imported the project and run its checks.
+A visible Compatibility-renderer route also ran on Apple M4. These checks cover the
+synthetic demo; full-world physics and comparative GPU performance remain untested.
 
 The renderer implements perspective-camera demand, movement lookahead, soft
 sampled terrain occlusion, all-direction coarse cover, asynchronous mesh arrays,

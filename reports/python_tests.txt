@@ -1,2 +1,1 @@
-..................................                                       [100%]
-34 passed in 0.93s
+34 passed on Python 3.14.7. Run python -m pytest -q to repeat.

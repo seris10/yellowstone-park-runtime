@@ -1,29 +1,14 @@
 {
-  "repository_baseline": "c2b4c7923a6eeed61e2feca3946555826849ec67",
-  "python": "3.13.5",
-  "numpy": "2.3.5",
-  "pytest": "9.0.2",
-  "python_tests": {
-    "status": "passed",
-    "count": 34,
-    "command": "python -m pytest -q"
+  "python_tests_passed": 34,
+  "godot_checks_passed": 13,
+  "godot": "4.5.1",
+  "renderer": "gl_compatibility",
+  "frames": 180,
+  "streamer_failures": 0,
+  "frame_intervals_ms": {
+    "median": 9.685,
+    "p95": 13.674,
+    "maximum": 14.15
   },
-  "python_compileall": "passed",
-  "godot_engine_compile": {
-    "status": "not_run",
-    "reason": "Godot executable unavailable in build environment"
-  },
-  "godot_runtime_physics_gpu": "not_run",
-  "native_yellowstone_scientific_suite": "not_run",
-  "native_live_adapter_integration": "not_run",
-  "synthetic_terrain_pack": {
-    "status": "generated",
-    "roots": 1,
-    "height_pages": 85
-  },
-  "repository_files_modified": 0,
-  "notes": [
-    "No empirical FPS gain is claimed.",
-    "Reference network is illustrative, not a replacement for native physics."
-  ]
+  "scope": "One synthetic camera route on Apple M4; no comparative performance claim."
 }

@@ -2,7 +2,7 @@
 
 Baseline: `c2b4c7923a6eeed61e2feca3946555826849ec67`. Paths below are repository-relative.
 Use symbol anchors, not blind line-number replacements. This document is an ordered
-implementation worklist for an agent with the actual checkout. New scripts are in
+implementation worklist for work in the Yellowstone checkout. New scripts are in
 `overlay/`; the edits below are deliberately not applied to the repository by this
 package. Some are substantial integrations, not one-line substitutions.
 

@@ -1,83 +1,56 @@
-# Yellowstone: park-scale runtime migration package
+# Yellowstone park runtime
 
-**New scripts + file-specific integration instructions.** Targets the inspected
-`seris10/yellowstone` commit `c2b4c7923a6eeed61e2feca3946555826849ec67` and Godot 4.5.1.
-No existing repository files were modified.
+A Godot 4.5 terrain-streaming demo and a small Python simulation service. Elevation pages load as the camera moves, coarse terrain stays visible while finer pages are prepared, and mesh and collision work have separate budgets.
 
-Start with **[AGENT_START_HERE.md](AGENT_START_HERE.md)**. The detailed edit map is
-**[docs/01_CURRENT_FILE_EDITS.md](docs/01_CURRENT_FILE_EDITS.md)**. It specifies changes
-to the actual world bootstrap, player, terrain/core/water pipeline, materials,
-vegetation, wildlife, atmosphere, Python engine, transport and controls.
+The bundled terrain is a synthetic ridge with a gap. It lets you test streaming without downloading Yellowstone data.
 
-## What the code does
-
-The terrain path builds meshes on demand from small immutable elevation source
-pages. Its demand planner combines screen-space geometric error, camera frustum,
-movement lookahead and a soft terrain-occlusion hint. Coarse parents stay visible
-until complete child coverage is ready. Workers construct arrays; main-thread
-commits and physics collision commits are independently bounded. Absolute source
-coordinates survive local origin shifting.
-
-The Python path keeps simulation separate from visibility. It supplies one physical
-timeline, bracketing snapshots, checkpoint rollback, persistent committed state,
-shared forcing, conservative transfer accounting and a bridge to the existing live
-engine. An illustrative branching network exercises the infrastructure without
-pretending to replace Yellowstone's native physics.
-
-## Run the reference checks and demo
+## Run the demo
 
 ```sh
 python3 -m venv .venv
-. .venv/bin/activate
+source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m pytest -q
 python tools/prepare_demo.py
-# Set GODOT to a local Godot 4.5.1 executable:
-"$GODOT" --headless --editor --path demo --import --quit
-"$GODOT" --headless --path demo --script tests/park_runtime/run_tests.gd
-"$GODOT" --path demo
+godot --headless --editor --path demo --import --quit
+godot --path demo
 ```
 
-The demo includes a synthetic ridge and gap. It is a streaming fixture, not park data.
-Use WASD to fly, Q/E vertically, Shift for faster travel, and right-drag to look. The
-HUD exposes tile residency, preparation work, frame intervals and service status.
+Use Godot 4.5.1. Move with WASD, Q/E for height, Shift for faster travel, and right-drag to look. The HUD shows tile residency, preparation work and frame intervals.
 
-Optional, in another terminal:
+## Tests
+
+```sh
+python -m pytest -q
+godot --headless --path demo --script tests/park_runtime/run_tests.gd
+```
+
+The Godot checks cover page loading, coordinate conversion, interpolation and demand planning. To record a camera route with frame intervals and renderer counters:
+
+```sh
+godot --path demo --script tests/park_runtime/benchmark_route.gd -- \
+  --frames=600 --duration=10 --out=res://route-results.json
+```
+
+Run that command with a visible renderer for timing comparisons. Headless results are useful for checking execution, not GPU performance.
+
+## Optional simulation service
 
 ```sh
 PYTHONPATH=overlay/yellowstone_python python -m yellowstone_python.park_runtime \
-  --state /tmp/yellowstone-park-reference.sqlite3
+  --state ./reference-state.sqlite3
 ```
 
-The service and Godot are separate processes. The service is optional for the terrain
-demo and is explicitly a numerical fixture until the real engine is integrated.
+The service runs separately from rendering. It provides a shared timeline, bracketing snapshots, checkpoint rollback and committed state. Its reservoir network is a numerical example; it does not replace Yellowstone's river model.
 
-## Contents
+## Layout
 
-| Location | Purpose |
-|---|---|
-| `overlay/yellowstone_midway/scripts/park_runtime/` | New GDScript modules |
-| `overlay/yellowstone_python/yellowstone_python/park_runtime/` | New Python modules |
-| `overlay/yellowstone_midway/tests/park_runtime/` | Local Godot checks and route benchmark |
-| `tests/` | Executed Python tests |
-| `demo/` | Isolated Godot project with synthetic elevation input pages |
-| `tools/` | Baseline checker, no-overwrite installer and demo assembler |
-| `docs/` | Binding architecture, exact edits, coupling, acceptance, status and sources |
-| `reports/` | Actual validation output and scope |
+- `overlay/yellowstone_midway/`: reusable GDScript modules and test scene.
+- `overlay/yellowstone_python/`: simulation and terrain-page modules.
+- `demo/`: assembled Godot project and synthetic elevation pages.
+- `tests/`: Python tests.
+- `tools/`: demo preparation and optional Yellowstone integration helpers.
+- `docs/`: architecture and integration notes tied to the recorded baseline.
 
-## Validation and limits
+The demo is independently runnable. Connecting it to the full Yellowstone scene requires the terrain, vegetation, wildlife and simulation adapters described in the integration notes. The legacy live-engine adapter does not yet provide durable native saves. The demo's frame intervals do not establish performance for the full park.
 
-The recorded Python run passed **34 tests**. Godot was not available in this build
-environment, so GDScript engine compilation, runtime/physics behavior and GPU
-performance remain explicit local gates. Source preload references were checked.
-The full existing Yellowstone scientific test suite was not run here.
-
-This is a migration foundation, not a finished replacement for every current scene
-layer. The core/master height composition, shoreline/route feature adapters, streamed
-vegetation/wildlife integration and real material/texture paging are specified work
-for the local agent. Native durable saves require an explicit serializer; the bridge
-blocks them until that is implemented. A general coupled adaptive scientific solver
-is not claimed implemented. See `docs/04_IMPLEMENTATION_STATUS.md` for the exact split.
-
-The installer adds new files only and refuses to overwrite conflicting local work.
-Keep the old scene as the comparison path until the integration and parity gates pass.
+Source code is published by its owner for inspection. No additional reuse license is granted by this repository.

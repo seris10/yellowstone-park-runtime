@@ -1,925 +1,245 @@
 {
-  "schema": "yellowstone.delivery_manifest.v1",
-  "files": {
-    "AGENT_START_HERE.md": {
-      "bytes": 3396,
-      "sha256": "01ce6425eb4e8bcbdabc85dd9bf9af89a3e6e7975b5fce24353542a3c51de437"
-    },
-    "README.md": {
-      "bytes": 4074,
-      "sha256": "04b67763b2fd5c5d719c9fc1aad238829ad280d5e4c6d4db2ef8f54183adfda9"
-    },
-    "baseline.json": {
-      "bytes": 543,
-      "sha256": "b16bae6d327e0136e52f776048b39257c985329f656154de2db6a5a7d83d79f7"
-    },
-    "demo/data/park_demo/catalog.json": {
-      "bytes": 707,
-      "sha256": "faf46170a8704b37f9c360659ebde31d8ca3df019bf42711ccaabcef1dc14b05"
-    },
-    "demo/data/park_demo/synthetic/0/0_0.f32": {
-      "bytes": 4356,
-      "sha256": "80de8eb64bf3deb45c7f05ed3baafc15e6f767f3380a42bc9199179d245c2912"
-    },
-    "demo/data/park_demo/synthetic/0/0_0.json": {
-      "bytes": 477,
-      "sha256": "725de40db08796c10ff5a3108906005843097d74fb773d635cf0ab8926f80f4f"
-    },
-    "demo/data/park_demo/synthetic/0/0_1.f32": {
-      "bytes": 4356,
-      "sha256": "5dd58d66c40ba432bbadfa20d776f430e1429272eccc43759168b64c87f56b37"
-    },
-    "demo/data/park_demo/synthetic/0/0_1.json": {
-      "bytes": 478,
-      "sha256": "977b9863dce595e7fc4e136ec873f855f2db3f32bd538a6e4082861d3c381a12"
-    },
-    "demo/data/park_demo/synthetic/0/0_2.f32": {
-      "bytes": 4356,
-      "sha256": "6dfbf21c74fdbbd4b3f6da2f08ad358d89b832e5e8aed04f5b54a30481d9bf99"
-    },
-    "demo/data/park_demo/synthetic/0/0_2.json": {
-      "bytes": 475,
-      "sha256": "beeb8bcf5c72094596ffdcea544fc8bc34f5ae9cf2dd1799171af69df26be823"
-    },
-    "demo/data/park_demo/synthetic/0/0_3.f32": {
-      "bytes": 4356,
-      "sha256": "3e243aa78cab3893fdf1cc4694f307d7327cc4cb33757e7b8465a398a1d1f955"
-    },
-    "demo/data/park_demo/synthetic/0/0_3.json": {
-      "bytes": 477,
-      "sha256": "054ab4e4b9f75e272cf7964e673730bf02c783ba4601f52503a2ef20a3555b10"
-    },
-    "demo/data/park_demo/synthetic/0/0_4.f32": {
-      "bytes": 4356,
-      "sha256": "753b3ca873dac1291ef28e29af7b44597dfccfb323cb6d6299a7938772ef9d66"
-    },
-    "demo/data/park_demo/synthetic/0/0_4.json": {
-      "bytes": 472,
-      "sha256": "c16939c3b12a577b014dd39f5d7ae6617c493d0fa9e18d7a15db6c8fd6b29957"
-    },
-    "demo/data/park_demo/synthetic/0/0_5.f32": {
-      "bytes": 4356,
-      "sha256": "c214a03ca6adba60d60c92440cc2e9996ee5844d7682ba51dfc0e7973f3f5d71"
-    },
-    "demo/data/park_demo/synthetic/0/0_5.json": {
-      "bytes": 475,
-      "sha256": "4011f79ba04baad27d20d238063f0cca7b75d78c4b8dbcc66b897e5bc14c04bf"
-    },
-    "demo/data/park_demo/synthetic/0/0_6.f32": {
-      "bytes": 4356,
-      "sha256": "f14a7a6861e1c5e3bfae0b5483e3171d022adf384893a4fc389f4c3534c76258"
-    },
-    "demo/data/park_demo/synthetic/0/0_6.json": {
-      "bytes": 474,
-      "sha256": "1bfe07f31345659228afb177468ceadc7f8643697118ced7826fb69a44297cdd"
-    },
-    "demo/data/park_demo/synthetic/0/0_7.f32": {
-      "bytes": 4356,
-      "sha256": "1e1c7300328ea75b8c598a36ec299973f2c4de489f68ed9ef75fdacaa1f1751e"
-    },
-    "demo/data/park_demo/synthetic/0/0_7.json": {
-      "bytes": 475,
-      "sha256": "1522d99c7be78b68012538e43bf7c81dc63f24d9b6fb58c263f2c46e74506117"
-    },
-    "demo/data/park_demo/synthetic/0/1_0.f32": {
-      "bytes": 4356,
-      "sha256": "ccd4e18a40e3bfb70228cb50f3b0c1d68e7ecce06dca9e736b7678ff4091c505"
-    },
-    "demo/data/park_demo/synthetic/0/1_0.json": {
-      "bytes": 476,
-      "sha256": "2027f79671adb159c694dc62dc6aa37f035da9881853f7cb2f01ea8e1d62bd47"
-    },
-    "demo/data/park_demo/synthetic/0/1_1.f32": {
-      "bytes": 4356,
-      "sha256": "ba008371aa7bf824a6b071a575a8ed717c5ad538ec59333e2d4caa82e7ebbaf2"
-    },
-    "demo/data/park_demo/synthetic/0/1_1.json": {
-      "bytes": 478,
-      "sha256": "b63d77e3013b455c3417b63e7ea6a48e2dbc2cea2409375c67b19f74e6ca8154"
-    },
-    "demo/data/park_demo/synthetic/0/1_2.f32": {
-      "bytes": 4356,
-      "sha256": "f682647613cc32440f9efce16904e86bc135d7793ca508bc97f233fdfcd35165"
-    },
-    "demo/data/park_demo/synthetic/0/1_2.json": {
-      "bytes": 475,
-      "sha256": "4392981d65a80c8ff1ca5208267a6a5e91703fe16913b0fa2b120b1242f76685"
-    },
-    "demo/data/park_demo/synthetic/0/1_3.f32": {
-      "bytes": 4356,
-      "sha256": "9b19ad39acb5ef5cc32da6f471557b1e0cb942470dd799f1bd437e002a2fc9b7"
-    },
-    "demo/data/park_demo/synthetic/0/1_3.json": {
-      "bytes": 475,
-      "sha256": "bcf122c5fd3c2fd9174239d86b4aa880d5f50ae29391985249e1d246597909ba"
-    },
-    "demo/data/park_demo/synthetic/0/1_4.f32": {
-      "bytes": 4356,
-      "sha256": "896803909281b1de2d95d92f7addaf22ed2fbcd44e74de7fbee91768e8d80253"
-    },
-    "demo/data/park_demo/synthetic/0/1_4.json": {
-      "bytes": 473,
-      "sha256": "cd191467224c1c64f754511fba4555784b90e77153b7bf5b0ed12419f8822d69"
-    },
-    "demo/data/park_demo/synthetic/0/1_5.f32": {
-      "bytes": 4356,
-      "sha256": "48f0aaea1b9f87544b26a429ff4ae06e575a734cc4d85ba729ba785ddb27bce1"
-    },
-    "demo/data/park_demo/synthetic/0/1_5.json": {
-      "bytes": 474,
-      "sha256": "b815bf970246a1258e62303913e992886625f559f31147e631fa37812cf2f01b"
-    },
-    "demo/data/park_demo/synthetic/0/1_6.f32": {
-      "bytes": 4356,
-      "sha256": "f84ea8189392e7d9daca9fa58e5318ca0cc33549c268180fb095296685534e25"
-    },
-    "demo/data/park_demo/synthetic/0/1_6.json": {
-      "bytes": 474,
-      "sha256": "67b598befb498103503598bff9ac76c5919a2048c31c67d6bed40fd71b418404"
-    },
-    "demo/data/park_demo/synthetic/0/1_7.f32": {
-      "bytes": 4356,
-      "sha256": "0e857859557cfa910b3f483d62b841b0ed53cefe21a1ae50be41b9f25c46de9e"
-    },
-    "demo/data/park_demo/synthetic/0/1_7.json": {
-      "bytes": 474,
-      "sha256": "c7d1d2672129de76559ea68b2ad0791c1c7e27d4882d0d6a7d11ef66dd1fea15"
-    },
-    "demo/data/park_demo/synthetic/0/2_0.f32": {
-      "bytes": 4356,
-      "sha256": "2a6ea0eecb9877db3addc0965f9cddce904ccda5885f18c82796955166374e9b"
-    },
-    "demo/data/park_demo/synthetic/0/2_0.json": {
-      "bytes": 476,
-      "sha256": "1b4af77fc42b347251f7c20ccaf3d7e0e9fe2b2e521759605ee0edb9c6d01989"
-    },
-    "demo/data/park_demo/synthetic/0/2_1.f32": {
-      "bytes": 4356,
-      "sha256": "f39b0fbd60b13dd2b35e2883b54de08a36edb4a6343ea57ac089672e1bbf0401"
-    },
-    "demo/data/park_demo/synthetic/0/2_1.json": {
-      "bytes": 474,
-      "sha256": "7905aae5d4d90283e369cc8d7c20c911ea9970753956e3911f6c579526e953f9"
-    },
-    "demo/data/park_demo/synthetic/0/2_2.f32": {
-      "bytes": 4356,
-      "sha256": "248f8f7f512346b21da9527bb31b5ea7c6f56d63b4d38c04edb52949295f1065"
-    },
-    "demo/data/park_demo/synthetic/0/2_2.json": {
-      "bytes": 476,
-      "sha256": "880ac222a2a1b64f541820119c2c1b212bf7fa1c86e3ac19aa1b9fe8b78886d8"
-    },
-    "demo/data/park_demo/synthetic/0/2_3.f32": {
-      "bytes": 4356,
-      "sha256": "9a16450af411e895a64088864bdb3d9ecc9ec6e6cf13390d068ad8b5b186e24f"
-    },
-    "demo/data/park_demo/synthetic/0/2_3.json": {
-      "bytes": 477,
-      "sha256": "af1ecb25dd4ce3dcb4cf254b806b115e1aa981d5e10f07a5dc48f5803a76e2f5"
-    },
-    "demo/data/park_demo/synthetic/0/2_4.f32": {
-      "bytes": 4356,
-      "sha256": "97acd672427ace22a0d731e76fad348a2414d14575aded692c1ec0e28b87a3b4"
-    },
-    "demo/data/park_demo/synthetic/0/2_4.json": {
-      "bytes": 473,
-      "sha256": "9f7aafe36a4e1a02240a5152bcd5b7a710c8370eff675734e8e103406e323a5b"
-    },
-    "demo/data/park_demo/synthetic/0/2_5.f32": {
-      "bytes": 4356,
-      "sha256": "1b87fa3037534a0ea8ae181594d4ec3c95982989d30c6827b24556ec1cfda1d8"
-    },
-    "demo/data/park_demo/synthetic/0/2_5.json": {
-      "bytes": 474,
-      "sha256": "55bc69efa384fcfbddf1952d8d60c8b66ef8491d6eb5d33860d18b505f6b7d7e"
-    },
-    "demo/data/park_demo/synthetic/0/2_6.f32": {
-      "bytes": 4356,
-      "sha256": "5debc8ebc069a5e43b4d11145b2c78a621e9b269f55448982627f88d76fe58e9"
-    },
-    "demo/data/park_demo/synthetic/0/2_6.json": {
-      "bytes": 474,
-      "sha256": "fac88e10ebef9f2f36f4f96a429e142b1f86350d81c50765305db9f40dbe84c3"
-    },
-    "demo/data/park_demo/synthetic/0/2_7.f32": {
-      "bytes": 4356,
-      "sha256": "4d4901df2615362fa005e66b09358ad7c2884fc91b34921bd2a26cb90af8293c"
-    },
-    "demo/data/park_demo/synthetic/0/2_7.json": {
-      "bytes": 473,
-      "sha256": "82c4f6ce7a01aa9321a4ddb88623899dfe80ab0c87e052c09ab7c52f20124878"
-    },
-    "demo/data/park_demo/synthetic/0/3_0.f32": {
-      "bytes": 4356,
-      "sha256": "c6867c6e14bc6c1ed686095d1fd4f1879342bb63a1d7aec1dc2c624d0c27a6ad"
-    },
-    "demo/data/park_demo/synthetic/0/3_0.json": {
-      "bytes": 474,
-      "sha256": "552d9ea81eae58e5315e2a9d57be63990de1850ecfedf5ef5222bbaca8fe6b13"
-    },
-    "demo/data/park_demo/synthetic/0/3_1.f32": {
-      "bytes": 4356,
-      "sha256": "354c3af83c4502f14922680a646d2b5edc71e9f717a5d73a6219e7d3720cb772"
-    },
-    "demo/data/park_demo/synthetic/0/3_1.json": {
-      "bytes": 476,
-      "sha256": "6eb41f778422ad88a5e84be9c783dc142d059e4c7f13590077846d7d5b5ff238"
-    },
-    "demo/data/park_demo/synthetic/0/3_2.f32": {
-      "bytes": 4356,
-      "sha256": "8014ecb0835afe0d1dcf43f6bc5936b0636dfd7e5aa16fc96f9382b2599166c0"
-    },
-    "demo/data/park_demo/synthetic/0/3_2.json": {
-      "bytes": 476,
-      "sha256": "4fea233b28ecc9109e28aa0df39fb370497cff7020c25d1cb11fe6feb8952c70"
-    },
-    "demo/data/park_demo/synthetic/0/3_3.f32": {
-      "bytes": 4356,
-      "sha256": "d17c9fcf7b6e6205f7c33c877156f3694b6629002df21805741f5827fa88b93d"
-    },
-    "demo/data/park_demo/synthetic/0/3_3.json": {
-      "bytes": 476,
-      "sha256": "e2a62e1e40e4dc65b21cb62cf52277be311042d80ea0c0dc86120b3d6ecea7cd"
-    },
-    "demo/data/park_demo/synthetic/0/3_4.f32": {
-      "bytes": 4356,
-      "sha256": "be8232ad0827a6412e32f148b9db15c1df23d5782e8389cd16d2f3e5ee0064c7"
-    },
-    "demo/data/park_demo/synthetic/0/3_4.json": {
-      "bytes": 473,
-      "sha256": "d3968f0a857068746c4833b959f394709f332f1cd66d338a9bda8a236d8ecc55"
-    },
-    "demo/data/park_demo/synthetic/0/3_5.f32": {
-      "bytes": 4356,
-      "sha256": "d43aecbcef2736c84e43c8ded3d7ee568e2bf1b2522808eca198b7f4c1e9afe7"
-    },
-    "demo/data/park_demo/synthetic/0/3_5.json": {
-      "bytes": 475,
-      "sha256": "0ef33bc0ae4ba9624441f6b13f116e5e68fcb2ed3d6fa9c4493ddb71368fa629"
-    },
-    "demo/data/park_demo/synthetic/0/3_6.f32": {
-      "bytes": 4356,
-      "sha256": "12663c33e10fc19889bd91c996ed11f2d1fa5b51067f799fa7b9093146d81e80"
-    },
-    "demo/data/park_demo/synthetic/0/3_6.json": {
-      "bytes": 473,
-      "sha256": "2799cd98e531848956fa66548088bd646285cc12ea6d64120c27dfc613a4d545"
-    },
-    "demo/data/park_demo/synthetic/0/3_7.f32": {
-      "bytes": 4356,
-      "sha256": "3fd4b983671e70678054074543ff4bb1b3b81edd9c1be0634cf024c6fa008673"
-    },
-    "demo/data/park_demo/synthetic/0/3_7.json": {
-      "bytes": 475,
-      "sha256": "4090074a39aa6233a2ff8d7793d12fd2668fc62631abf607ed43d0b4a496f152"
-    },
-    "demo/data/park_demo/synthetic/0/4_0.f32": {
-      "bytes": 4356,
-      "sha256": "403fb2e6ac8afaedfd840e37a1b55b35d099c1ba582060b84fdf86c6efbc2496"
-    },
-    "demo/data/park_demo/synthetic/0/4_0.json": {
-      "bytes": 473,
-      "sha256": "73a928a15759f6fb4f2f3c4e76b59d03d0902ccb6b6cc7b741d9a204abe85437"
-    },
-    "demo/data/park_demo/synthetic/0/4_1.f32": {
-      "bytes": 4356,
-      "sha256": "22e914aff632e68a051aed8aaf8d9353e45a256cc80f66b3dde95f35dcfbfedf"
-    },
-    "demo/data/park_demo/synthetic/0/4_1.json": {
-      "bytes": 473,
-      "sha256": "4689612b9f00fa87209ca8c3666bbb63a841c9630eab0b213c573e65946b5132"
-    },
-    "demo/data/park_demo/synthetic/0/4_2.f32": {
-      "bytes": 4356,
-      "sha256": "a0896290d094ee56bfba262306899e04e827075f0ed9ab3ccbe10ec82e1a7aea"
-    },
-    "demo/data/park_demo/synthetic/0/4_2.json": {
-      "bytes": 472,
-      "sha256": "8bd96398d750cf95ccfad1790137f2449c14530e4cf68250958404015b995c12"
-    },
-    "demo/data/park_demo/synthetic/0/4_3.f32": {
-      "bytes": 4356,
-      "sha256": "59b8eb9ac6b27c29c6b9ec8fc81c2394e9b75bb27f3dfa2f804eb1ea2512b50b"
-    },
-    "demo/data/park_demo/synthetic/0/4_3.json": {
-      "bytes": 472,
-      "sha256": "30c7a9bd30484603b8295bd0afd11b2d7abdd82e56e1d1dc6d4fe615b2c82941"
-    },
-    "demo/data/park_demo/synthetic/0/4_4.f32": {
-      "bytes": 4356,
-      "sha256": "07d10e04f622798d0c68b26abf3d914f354a1c8455ffe624a29e8ab8fd32a082"
-    },
-    "demo/data/park_demo/synthetic/0/4_4.json": {
-      "bytes": 469,
-      "sha256": "bc06c13af7469265c2a18c2e4cba409446a61e61cfd8d8901471629c4989ab2a"
-    },
-    "demo/data/park_demo/synthetic/0/4_5.f32": {
-      "bytes": 4356,
-      "sha256": "b7ff261a6e7a9f13b54bae3ba138d0136f215598f08c32788829fddc77e5de21"
-    },
-    "demo/data/park_demo/synthetic/0/4_5.json": {
-      "bytes": 471,
-      "sha256": "79f0ea008f2e6721f357ccc1ebb0925c58c62e16159139b7b3768c7ba6530fc8"
-    },
-    "demo/data/park_demo/synthetic/0/4_6.f32": {
-      "bytes": 4356,
-      "sha256": "053b34befd6a39ac093d4166372696e6e83cd21cb80dbb1ac7efe180f529b786"
-    },
-    "demo/data/park_demo/synthetic/0/4_6.json": {
-      "bytes": 471,
-      "sha256": "efff493bd78aae77a550374442b1d5973871cd4633325c87744b2cb47dc688c6"
-    },
-    "demo/data/park_demo/synthetic/0/4_7.f32": {
-      "bytes": 4356,
-      "sha256": "343c13372efafb684026e04640b0dc91d9c1dba213c9e77b52e82d6bf7323d27"
-    },
-    "demo/data/park_demo/synthetic/0/4_7.json": {
-      "bytes": 470,
-      "sha256": "202e4607104b6212f2ba88d63f9621125f25b745ea95fa82b0fc46d21b7d6f51"
-    },
-    "demo/data/park_demo/synthetic/0/5_0.f32": {
-      "bytes": 4356,
-      "sha256": "4761184d8ddc432392531bb5db0aac3ab45e588b18d1ee55a64dfcb23c48573a"
-    },
-    "demo/data/park_demo/synthetic/0/5_0.json": {
-      "bytes": 475,
-      "sha256": "44bb112a71b11e7b35a2cb27b4de2540be8964efc460d83daea3d34ef4f3c999"
-    },
-    "demo/data/park_demo/synthetic/0/5_1.f32": {
-      "bytes": 4356,
-      "sha256": "506811a41d77ffdd0f2b2303796a5b25f9dd2b8291b7322a00da1e89a567e32a"
-    },
-    "demo/data/park_demo/synthetic/0/5_1.json": {
-      "bytes": 474,
-      "sha256": "d1f949e78f91929915ac331cae1311a974ecb15fb3cfc66415d597fbef263c9e"
-    },
-    "demo/data/park_demo/synthetic/0/5_2.f32": {
-      "bytes": 4356,
-      "sha256": "2158c4cf2571df28f15eeb1ae4ec87209537bae559735278f9adf1817e65467e"
-    },
-    "demo/data/park_demo/synthetic/0/5_2.json": {
-      "bytes": 473,
-      "sha256": "b4ee6ca831599b6ac9b82781b55f0627724555104cc48bb64fa1394ea9e9790b"
-    },
-    "demo/data/park_demo/synthetic/0/5_3.f32": {
-      "bytes": 4356,
-      "sha256": "d98f1f3377f556d35e44e4dc146813cf7e597ad423030f6c5cff907cc50cecd5"
-    },
-    "demo/data/park_demo/synthetic/0/5_3.json": {
-      "bytes": 475,
-      "sha256": "062ae1b62c32d6353038ef05539934824b749d56a6022a976c01225c656a7dc2"
-    },
-    "demo/data/park_demo/synthetic/0/5_4.f32": {
-      "bytes": 4356,
-      "sha256": "a5f2aa2112ffe84653a1512104996652db9b6b43e5b9f9a45e328b7f9c844944"
-    },
-    "demo/data/park_demo/synthetic/0/5_4.json": {
-      "bytes": 470,
-      "sha256": "ddb91bf763daee3569b4ea2197c9fd07642b0e0f4a86160912dfe472d484f068"
-    },
-    "demo/data/park_demo/synthetic/0/5_5.f32": {
-      "bytes": 4356,
-      "sha256": "603bddcc7cdff1fb0bbef405b2ec8c998be34a8ac8f9d97264cc32898d97a0f5"
-    },
-    "demo/data/park_demo/synthetic/0/5_5.json": {
-      "bytes": 473,
-      "sha256": "d2b8d61b50c82751f8b9d9ee184be8b5fd3fe95d9d01fae1ae6c24add66eae13"
-    },
-    "demo/data/park_demo/synthetic/0/5_6.f32": {
-      "bytes": 4356,
-      "sha256": "0757982fc26895034477bc7b2dd0cbe3fb4d70d9c2cbd0a9a5d7fe2c26811277"
-    },
-    "demo/data/park_demo/synthetic/0/5_6.json": {
-      "bytes": 474,
-      "sha256": "3917f998292177a813ff81c7420f481e1f12bb60e4a85cd39132f25974c44112"
-    },
-    "demo/data/park_demo/synthetic/0/5_7.f32": {
-      "bytes": 4356,
-      "sha256": "52a2630be00eb7cdaae7658b059a4a36989eec80ee0af6b3a9ba9a81150dd73b"
-    },
-    "demo/data/park_demo/synthetic/0/5_7.json": {
-      "bytes": 474,
-      "sha256": "43e6665c40ae9af7a897684e886776fb7f5d5eb1239103bd0930dcae0e2f03d9"
-    },
-    "demo/data/park_demo/synthetic/0/6_0.f32": {
-      "bytes": 4356,
-      "sha256": "7569c872017b15cfd8a8a751621135055ede29ce68128b0158ec147f75f6fca7"
-    },
-    "demo/data/park_demo/synthetic/0/6_0.json": {
-      "bytes": 475,
-      "sha256": "6f347e0dc970e8c792fbd12d98886921ac6ffafcf91e167cfd06799c68f7b3c3"
-    },
-    "demo/data/park_demo/synthetic/0/6_1.f32": {
-      "bytes": 4356,
-      "sha256": "f1cf3dd3ea8501ef528346f5aff0fa19f5f5922e643b1c4b74ec1a825877312d"
-    },
-    "demo/data/park_demo/synthetic/0/6_1.json": {
-      "bytes": 475,
-      "sha256": "46adbfa7812153ef57a3d9a04a62b0bd55f1617ab366599f75cdbdd746b32e2e"
-    },
-    "demo/data/park_demo/synthetic/0/6_2.f32": {
-      "bytes": 4356,
-      "sha256": "0680c31cd96792902ffcb34b3cb76918fc8cd1403701d81961a8126514efa741"
-    },
-    "demo/data/park_demo/synthetic/0/6_2.json": {
-      "bytes": 476,
-      "sha256": "e1a2ecf7b0d11ffa879b0abbc975ad49a402d494b612921ef48c5c7e5b6c0c62"
-    },
-    "demo/data/park_demo/synthetic/0/6_3.f32": {
-      "bytes": 4356,
-      "sha256": "9fbde2dd9eef53871c202257bdfe691ae48346c6740edf75da5d9aba2c4dc14b"
-    },
-    "demo/data/park_demo/synthetic/0/6_3.json": {
-      "bytes": 472,
-      "sha256": "525a7eabeda83f20cd10062e1e29133544ccb4712ef199baabb38dba95bef57a"
-    },
-    "demo/data/park_demo/synthetic/0/6_4.f32": {
-      "bytes": 4356,
-      "sha256": "bd7085db0a7822fb1705d67d89e8983a86b2f5e99e9a23731650d8ae9b6b42a4"
-    },
-    "demo/data/park_demo/synthetic/0/6_4.json": {
-      "bytes": 472,
-      "sha256": "a6bbf4c4d405f08d692bc772c4240e3e84d33057583b9d27680fceef169690a0"
-    },
-    "demo/data/park_demo/synthetic/0/6_5.f32": {
-      "bytes": 4356,
-      "sha256": "77f6401979d9363dd8e55e6541c94c2ab5a71d0d40d5ec73c45bd531b0452946"
-    },
-    "demo/data/park_demo/synthetic/0/6_5.json": {
-      "bytes": 474,
-      "sha256": "0bf6a435c5bb5c86beaebe52bfc20cfb6abcc30f849147e3e0357fbf0f5cb5f4"
-    },
-    "demo/data/park_demo/synthetic/0/6_6.f32": {
-      "bytes": 4356,
-      "sha256": "5b8c0fe3e63e9de5aa7d92ae700aa27c4b914ebb4af624562a0880b067d3e1d0"
-    },
-    "demo/data/park_demo/synthetic/0/6_6.json": {
-      "bytes": 473,
-      "sha256": "00ccdc6d35a3cf617e52368f76e3b595092869b60d52ca5badb7c171a32c0974"
-    },
-    "demo/data/park_demo/synthetic/0/6_7.f32": {
-      "bytes": 4356,
-      "sha256": "9b2a3df40911b022e88efa2b61dcab402ee558160d1a75414342b0d8b2eb8d7b"
-    },
-    "demo/data/park_demo/synthetic/0/6_7.json": {
-      "bytes": 473,
-      "sha256": "900c694ee8bc7ff04ef3c7b91d0aee97342dfd8be86de3fb3e469813bff1f167"
-    },
-    "demo/data/park_demo/synthetic/0/7_0.f32": {
-      "bytes": 4356,
-      "sha256": "e28f937e5fc04dd9a10a6174d9457889528e0065943088bcb5e95f369b86ffaf"
-    },
-    "demo/data/park_demo/synthetic/0/7_0.json": {
-      "bytes": 476,
-      "sha256": "59d3ac27d0eb965a4c4291eaae5a1128f3133b4607b83ae0c4fbba1ceadeb6f2"
-    },
-    "demo/data/park_demo/synthetic/0/7_1.f32": {
-      "bytes": 4356,
-      "sha256": "5fb78ba4cb1befc25f36f643a8e28b0e45ea1163760eb945f9f66d13955279fb"
-    },
-    "demo/data/park_demo/synthetic/0/7_1.json": {
-      "bytes": 473,
-      "sha256": "b2f26a40d551e1676649a8151a7256b14dffaa20acf37d2e1092ab242aae4170"
-    },
-    "demo/data/park_demo/synthetic/0/7_2.f32": {
-      "bytes": 4356,
-      "sha256": "2bebc7b35d07f0fde2020fd3428bc31347633d14ce6205d246c44bf15860a435"
-    },
-    "demo/data/park_demo/synthetic/0/7_2.json": {
-      "bytes": 477,
-      "sha256": "41dc1f36b56388c7d4c4c9e5a8ec26d4433fe73c1614c63062ea2b8933fd071d"
-    },
-    "demo/data/park_demo/synthetic/0/7_3.f32": {
-      "bytes": 4356,
-      "sha256": "ff01436662bf6ad3dcf5c9d04d558497eaca589760bcdb51e997784e14e1ceb7"
-    },
-    "demo/data/park_demo/synthetic/0/7_3.json": {
-      "bytes": 476,
-      "sha256": "c4475dc5348c20db319544a11d3292904c4cfaa8c40a1f4789a8cff09eb2ac38"
-    },
-    "demo/data/park_demo/synthetic/0/7_4.f32": {
-      "bytes": 4356,
-      "sha256": "ed566d818da40fc1d9425dcc86fac5580bff606b2fe83ffed2c0c487d64b804f"
-    },
-    "demo/data/park_demo/synthetic/0/7_4.json": {
-      "bytes": 473,
-      "sha256": "9ecd33362f37a8705d60327786f47ba2141189960fdfd444afa7f02dcb91ba10"
-    },
-    "demo/data/park_demo/synthetic/0/7_5.f32": {
-      "bytes": 4356,
-      "sha256": "a8a469e7b69ea7d52165f329f74733625f666973cb21b976c740c2fa6960fa40"
-    },
-    "demo/data/park_demo/synthetic/0/7_5.json": {
-      "bytes": 473,
-      "sha256": "bc4f134f81a0b344b31a36da92d3fad96cf0e70f12e72b80266aed6c35838bd5"
-    },
-    "demo/data/park_demo/synthetic/0/7_6.f32": {
-      "bytes": 4356,
-      "sha256": "bc11162f5bd1d8f896370d2d2b1e45a5b7754cf2c4d409d0d5c30f1932750421"
-    },
-    "demo/data/park_demo/synthetic/0/7_6.json": {
-      "bytes": 474,
-      "sha256": "de8c90991ac097f8f9b4e28d35011d29786554559edfa2b1a332fba255382733"
-    },
-    "demo/data/park_demo/synthetic/0/7_7.f32": {
-      "bytes": 4356,
-      "sha256": "0996b5adc3812dea984071d5496f798eb1178c98101541ad59950ad5e4dd754f"
-    },
-    "demo/data/park_demo/synthetic/0/7_7.json": {
-      "bytes": 473,
-      "sha256": "b02b7fa155d78ebadcff189d9257fd3b3e3ea698f0010a51194f724ee5332438"
-    },
-    "demo/data/park_demo/synthetic/1/0_0.f32": {
-      "bytes": 4356,
-      "sha256": "19e7cc26badea23195eb3cda65d6a857617ea7d54e75c0c941419ccea2a41a4c"
-    },
-    "demo/data/park_demo/synthetic/1/0_0.json": {
-      "bytes": 1327,
-      "sha256": "1fb7b74b1e7efb32da3cdd776c217732944ac7fa780e034078a8792573fed3b5"
-    },
-    "demo/data/park_demo/synthetic/1/0_1.f32": {
-      "bytes": 4356,
-      "sha256": "e2d531e9e67e299f1707581e0b6866b2f57a713f8c16d8f95c445a8549ecf89a"
-    },
-    "demo/data/park_demo/synthetic/1/0_1.json": {
-      "bytes": 1317,
-      "sha256": "437ec4d68b770b8008225f39cc4717fec4758640a7596e4a8764f63e83cba363"
-    },
-    "demo/data/park_demo/synthetic/1/0_2.f32": {
-      "bytes": 4356,
-      "sha256": "a148e2402e03e7b6569dfad0906cc2b96dbbeaec19f3b8da39da5d11d3ab2f33"
-    },
-    "demo/data/park_demo/synthetic/1/0_2.json": {
-      "bytes": 1307,
-      "sha256": "5dc5b95df1d257019a82a042df86156f9edc67bb359972c0a27b8935aa822011"
-    },
-    "demo/data/park_demo/synthetic/1/0_3.f32": {
-      "bytes": 4356,
-      "sha256": "90ffb1dd680f094102f183141ba8a81653917d4b81f4a3125b180c97d5b84c97"
-    },
-    "demo/data/park_demo/synthetic/1/0_3.json": {
-      "bytes": 1311,
-      "sha256": "21eb3268a0b6fe345c4d7ff940b474c56a6f828b4c3f2cf69e9062336eb8002b"
-    },
-    "demo/data/park_demo/synthetic/1/1_0.f32": {
-      "bytes": 4356,
-      "sha256": "3a321bea49ec47ca456a807b0244a134e98fd5755f762f1bd53bfdd4c985fd21"
-    },
-    "demo/data/park_demo/synthetic/1/1_0.json": {
-      "bytes": 1312,
-      "sha256": "f552d1b0f99fe927c48cb2aba76f64eb97244b0a8d64754614a37a6fdc91302e"
-    },
-    "demo/data/park_demo/synthetic/1/1_1.f32": {
-      "bytes": 4356,
-      "sha256": "bbfa1b7ef12dac6358b5ae3193f3653bf40730888a8bc4b2aa33e4db512a5e6e"
-    },
-    "demo/data/park_demo/synthetic/1/1_1.json": {
-      "bytes": 1320,
-      "sha256": "afea7cf132860c2490d6ece5ff1032ff1383f39e1a9038cbc8164fe3afff796b"
-    },
-    "demo/data/park_demo/synthetic/1/1_2.f32": {
-      "bytes": 4356,
-      "sha256": "61abb3b7daa0b12e0d99023fd939f76455c7863851f7553020734ad253c33373"
-    },
-    "demo/data/park_demo/synthetic/1/1_2.json": {
-      "bytes": 1306,
-      "sha256": "3ddfab40f243f60ae18b1c77e55e2a73d243906230c176595cbcf1aa904814c0"
-    },
-    "demo/data/park_demo/synthetic/1/1_3.f32": {
-      "bytes": 4356,
-      "sha256": "3f7f04b12371510ba91774a6ade4316960271e38c184d6d72068581aebca62d3"
-    },
-    "demo/data/park_demo/synthetic/1/1_3.json": {
-      "bytes": 1308,
-      "sha256": "34ddb2707b5485c116ac4fc9726ae35ca817d189020f7cebf63ac423b8865bd7"
-    },
-    "demo/data/park_demo/synthetic/1/2_0.f32": {
-      "bytes": 4356,
-      "sha256": "bb3ea2f4f4714e134c122d6b8af44bd44d534791ea97e63c35bf5d5cc97b627c"
-    },
-    "demo/data/park_demo/synthetic/1/2_0.json": {
-      "bytes": 1307,
-      "sha256": "78e8a18f12626fd5f283286a5d09ff78cd37d5551da62712e21505f97aee5f0c"
-    },
-    "demo/data/park_demo/synthetic/1/2_1.f32": {
-      "bytes": 4356,
-      "sha256": "28c76a517bdbc977a9da93554db0109a3034d0742556c2b4ff7a5475c69d0179"
-    },
-    "demo/data/park_demo/synthetic/1/2_1.json": {
-      "bytes": 1302,
-      "sha256": "380cecd0c8aa57cdc1ed841a3abdd9e1d891ab22125dece760dcdbb58ca9e604"
-    },
-    "demo/data/park_demo/synthetic/1/2_2.f32": {
-      "bytes": 4356,
-      "sha256": "3e72050d9e8174e2ddea57299b7ad8512c39e909d42520ad95b431f5f8f4d274"
-    },
-    "demo/data/park_demo/synthetic/1/2_2.json": {
-      "bytes": 1290,
-      "sha256": "5d20e22dd90efb3ad40ca624e5155ccf57414825121b729e759d35592a23f50d"
-    },
-    "demo/data/park_demo/synthetic/1/2_3.f32": {
-      "bytes": 4356,
-      "sha256": "64cda58ea2bad4de9b74e737aba88948370a18de4e6afa79259a80d403990489"
-    },
-    "demo/data/park_demo/synthetic/1/2_3.json": {
-      "bytes": 1299,
-      "sha256": "cf20c8409eaac70db1f21f9e9fbf1b7f1979d182b312c9acb8be34cb48a28a52"
-    },
-    "demo/data/park_demo/synthetic/1/3_0.f32": {
-      "bytes": 4356,
-      "sha256": "d9fe2e8d34bf02b23c871e419ec53a73b741b2f20d350be2438d18938b5f3955"
-    },
-    "demo/data/park_demo/synthetic/1/3_0.json": {
-      "bytes": 1313,
-      "sha256": "05e9437d5a63022e2e06caa271599db56c1239a9328ffcc279ff8d2219e38613"
-    },
-    "demo/data/park_demo/synthetic/1/3_1.f32": {
-      "bytes": 4356,
-      "sha256": "ee0cdd7f6978c19b0d6023e8b272d8fc798074f92356a5c399b6c1d10e0fd530"
-    },
-    "demo/data/park_demo/synthetic/1/3_1.json": {
-      "bytes": 1315,
-      "sha256": "bb74f790fac166beb4f70b3c2bcde8f362486049bf57dac28226649aec1919ae"
-    },
-    "demo/data/park_demo/synthetic/1/3_2.f32": {
-      "bytes": 4356,
-      "sha256": "09c0ae6e8337e0f8324edfa3b11908a9ab454564146cb19a0bec771aac6dc813"
-    },
-    "demo/data/park_demo/synthetic/1/3_2.json": {
-      "bytes": 1303,
-      "sha256": "9f87804cd0356b54a09c2a7f4a1e5d6e8faa0fad9dd37880918fbe494b424a12"
-    },
-    "demo/data/park_demo/synthetic/1/3_3.f32": {
-      "bytes": 4356,
-      "sha256": "d4e75bfd9e38d83c1d6714ca6240dede355c0a19e86f46c34a02de0f8687dc8a"
-    },
-    "demo/data/park_demo/synthetic/1/3_3.json": {
-      "bytes": 1306,
-      "sha256": "eec08418745dbd82ff1d7a96a37a9ad93f74e1aca81c95afdfccb138bd2cce31"
-    },
-    "demo/data/park_demo/synthetic/2/0_0.f32": {
-      "bytes": 4356,
-      "sha256": "4566badb2a01c0c71d0cc2ab1bf17df856da8f69111dbdc4be1156c25d4a218b"
-    },
-    "demo/data/park_demo/synthetic/2/0_0.json": {
-      "bytes": 1383,
-      "sha256": "da1034b33076aebb518c175bb7f3cbb1ed312c2a921ea6a58f33bab7eda1a3bb"
-    },
-    "demo/data/park_demo/synthetic/2/0_1.f32": {
-      "bytes": 4356,
-      "sha256": "000d135cdac7e6675553898f13b4e6b352589a31625458fbd31cfcd668ec18b8"
-    },
-    "demo/data/park_demo/synthetic/2/0_1.json": {
-      "bytes": 1371,
-      "sha256": "50e91ebe3146c59e3976c5b06e7a53a2d83a074c5fc117d2791f43168e7e0b40"
-    },
-    "demo/data/park_demo/synthetic/2/1_0.f32": {
-      "bytes": 4356,
-      "sha256": "b8fdfa66ef777d862a0c126b1108700f630a5ed42cc379a9caaa326abf8ca3ab"
-    },
-    "demo/data/park_demo/synthetic/2/1_0.json": {
-      "bytes": 1368,
-      "sha256": "3b692f6af3efd0a3afd753b824641c32d270cd269709b4ab626fc398ef04edc7"
-    },
-    "demo/data/park_demo/synthetic/2/1_1.f32": {
-      "bytes": 4356,
-      "sha256": "e0e206721c1b5f210d463f9af386b476e5ed85d2182205149c93354d2396caa2"
-    },
-    "demo/data/park_demo/synthetic/2/1_1.json": {
-      "bytes": 1356,
-      "sha256": "3b164ade9182bbe55daaffded03fc593f8a54b80ca8f5ac9685faf196f870439"
-    },
-    "demo/data/park_demo/synthetic/3/0_0.f32": {
-      "bytes": 4356,
-      "sha256": "00bbb5a5550afb0404e38a390838796aac65c6dd6a80ffb1151320af80597b80"
-    },
-    "demo/data/park_demo/synthetic/3/0_0.json": {
-      "bytes": 1365,
-      "sha256": "f451a262adbee2f1e3b9b7ba396836eac6f1730de400ef861d3c9a2226180178"
-    },
-    "demo/project.godot": {
-      "bytes": 305,
-      "sha256": "fd2e76af80f67201219c0d67af0d6c53dcfae8f40d0b71306d4ff5d1fe93106f"
-    },
-    "demo/scenes/park_streaming_demo.tscn": {
-      "bytes": 193,
-      "sha256": "7751bfdedcaf3d06c49e05bbda3f4ef3e08032346cb84bce46f046e00e036d69"
-    },
-    "demo/scripts/park_runtime/demand_planner.gd": {
-      "bytes": 5925,
-      "sha256": "cc7b5dcb761668cf8ccd4b73c6f5c177ef50539b2853d7bea52f54ab622a62ca"
-    },
-    "demo/scripts/park_runtime/field_buffer.gd": {
-      "bytes": 2146,
-      "sha256": "4f55290e813233845fdab9b289deede5bb97b720de1c2e9adbe8b489ba0ccc04"
-    },
-    "demo/scripts/park_runtime/park_client.gd": {
-      "bytes": 3832,
-      "sha256": "122ece0b59dfa95d522541c0ab9775a43802668f31c7a49dac7c6490cb505d54"
-    },
-    "demo/scripts/park_runtime/runtime_monitor.gd": {
-      "bytes": 2521,
-      "sha256": "d133a40dcccbaec94046b02af8ba2563f0b8fa2eabb2d5d2fe236abac0ac14fe"
-    },
-    "demo/scripts/park_runtime/streaming_demo.gd": {
-      "bytes": 2715,
-      "sha256": "80d4c0ed1b37bbf090168d144933fbc005c49ee53eacfcc8ec5a179387ba2ca9"
-    },
-    "demo/scripts/park_runtime/terrain_job.gd": {
-      "bytes": 6790,
-      "sha256": "7bef076f68f47c85b96c0f15808c8e181fb442eb2fc03663c68ad078e47d625e"
-    },
-    "demo/scripts/park_runtime/terrain_streamer.gd": {
-      "bytes": 10977,
-      "sha256": "58d846e39d951e7b09cd407f7f9ae5417f159d225ea5b2c0a64c5d2d33ba32e6"
-    },
-    "demo/scripts/park_runtime/tile_visual.gd": {
-      "bytes": 1594,
-      "sha256": "6280d712dcaa74983d5229f915125cd4a6a02a915257ae70db5f10245ab5b286"
-    },
-    "demo/scripts/park_runtime/vegetation_batch.gd": {
-      "bytes": 1626,
-      "sha256": "75fafd4ef7b2ff59b47dfcd7b9b147ae243c12593c0d30e20ec4757a9603df9b"
-    },
-    "demo/scripts/park_runtime/world_frame.gd": {
-      "bytes": 2022,
-      "sha256": "eff6ce778c4445b33859c5dcd11870d6c9734b5bd059e2fea22c6a5ff6392382"
-    },
-    "demo/tests/park_runtime/benchmark_route.gd": {
-      "bytes": 4206,
-      "sha256": "2687c440fefc254f910fa3f107f8ece1c51a1ec11e546775eb19a40db8bfc4bd"
-    },
-    "demo/tests/park_runtime/run_tests.gd": {
-      "bytes": 4192,
-      "sha256": "66c0fd935ed2d5f5b0c80c10e4e2e91bc135e33d4e55183ac8f032ec85f27d62"
-    },
-    "docs/00_ARCHITECTURE_CONTRACT.md": {
-      "bytes": 6498,
-      "sha256": "0d48b6a6e87c926b3ffaae94ac0960481cdf6762bbf6279dc2e91cc9845b53cf"
-    },
-    "docs/01_CURRENT_FILE_EDITS.md": {
-      "bytes": 25991,
-      "sha256": "d79fb7e14ba252a393bc485157715708fb9fc8b21da54b440036f41cb0379759"
-    },
-    "docs/02_SIMULATION_AND_STATE.md": {
-      "bytes": 9429,
-      "sha256": "6060c2b4bdcbe3c2073a480f947251437629f490dc6c5967b1e27cabd5948f47"
-    },
-    "docs/03_ACCEPTANCE.md": {
-      "bytes": 8661,
-      "sha256": "e0064d018c171ba9605f9edc9c289b2eebc0301573638b3981887fc24a9da665"
-    },
-    "docs/04_IMPLEMENTATION_STATUS.md": {
-      "bytes": 4103,
-      "sha256": "6756e559e65856fd76a452ee6b8d54bbc0019f5be63a1ed19dd694915f77d475"
-    },
-    "docs/05_SOURCES_AND_DESIGN_NOTES.md": {
-      "bytes": 4443,
-      "sha256": "7023d77493b0f8c5a74df74b737051ca7bd6ca78124b630d7dd879abe66ba978"
-    },
-    "overlay/yellowstone_midway/scenes/park_streaming_demo.tscn": {
-      "bytes": 193,
-      "sha256": "7751bfdedcaf3d06c49e05bbda3f4ef3e08032346cb84bce46f046e00e036d69"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/demand_planner.gd": {
-      "bytes": 5925,
-      "sha256": "cc7b5dcb761668cf8ccd4b73c6f5c177ef50539b2853d7bea52f54ab622a62ca"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/field_buffer.gd": {
-      "bytes": 2146,
-      "sha256": "4f55290e813233845fdab9b289deede5bb97b720de1c2e9adbe8b489ba0ccc04"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/park_client.gd": {
-      "bytes": 3832,
-      "sha256": "122ece0b59dfa95d522541c0ab9775a43802668f31c7a49dac7c6490cb505d54"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/runtime_monitor.gd": {
-      "bytes": 2521,
-      "sha256": "d133a40dcccbaec94046b02af8ba2563f0b8fa2eabb2d5d2fe236abac0ac14fe"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/streaming_demo.gd": {
-      "bytes": 2715,
-      "sha256": "80d4c0ed1b37bbf090168d144933fbc005c49ee53eacfcc8ec5a179387ba2ca9"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/terrain_job.gd": {
-      "bytes": 6790,
-      "sha256": "7bef076f68f47c85b96c0f15808c8e181fb442eb2fc03663c68ad078e47d625e"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/terrain_streamer.gd": {
-      "bytes": 10977,
-      "sha256": "58d846e39d951e7b09cd407f7f9ae5417f159d225ea5b2c0a64c5d2d33ba32e6"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/tile_visual.gd": {
-      "bytes": 1594,
-      "sha256": "6280d712dcaa74983d5229f915125cd4a6a02a915257ae70db5f10245ab5b286"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/vegetation_batch.gd": {
-      "bytes": 1626,
-      "sha256": "75fafd4ef7b2ff59b47dfcd7b9b147ae243c12593c0d30e20ec4757a9603df9b"
-    },
-    "overlay/yellowstone_midway/scripts/park_runtime/world_frame.gd": {
-      "bytes": 2022,
-      "sha256": "eff6ce778c4445b33859c5dcd11870d6c9734b5bd059e2fea22c6a5ff6392382"
-    },
-    "overlay/yellowstone_midway/tests/park_runtime/benchmark_route.gd": {
-      "bytes": 4206,
-      "sha256": "2687c440fefc254f910fa3f107f8ece1c51a1ec11e546775eb19a40db8bfc4bd"
-    },
-    "overlay/yellowstone_midway/tests/park_runtime/run_tests.gd": {
-      "bytes": 4192,
-      "sha256": "66c0fd935ed2d5f5b0c80c10e4e2e91bc135e33d4e55183ac8f032ec85f27d62"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/__init__.py": {
-      "bytes": 109,
-      "sha256": "e65013eb822df446b7999fd2b24d39dba5e027db7766cf0fde9e8fd93edbbdec"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/__main__.py": {
-      "bytes": 1715,
-      "sha256": "8a40429955e2e5850bf2b0dc3143d42e5a9126c5216d6879b094004dcfd24d27"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/contracts.py": {
-      "bytes": 4128,
-      "sha256": "389eb0101ef92d380977201a7cb9fbcdedeb9ca377623c2ab184421eb2e270d2"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/coupling.py": {
-      "bytes": 3003,
-      "sha256": "4eb7c7d3256f336c96a10a203fd53049657569705e7dbf598bf00fd2ce996ee9"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/field_codec.py": {
-      "bytes": 3422,
-      "sha256": "9cac0f0e06d5efddac1b9724e25c7c1f97175e50594388e1ac2d8b979658de39"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/forcing.py": {
-      "bytes": 2651,
-      "sha256": "791412e0b230bb8e5dd71fe9767f4b03e17da3ca7a0fbdafbce9a6ffba9732ef"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/legacy_adapter.py": {
-      "bytes": 2408,
-      "sha256": "30cb6799fc05cfc7133282bbba57074dde952e368abe70cfe9a3fca71f066b3e"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/reference_network.py": {
-      "bytes": 7375,
-      "sha256": "ad19a8f1a7d524ec3d6616d3741759545df02d0edd53d632429a8a5d4fb6cce2"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/runtime.py": {
-      "bytes": 9277,
-      "sha256": "07c1422e451e944bcf6d1c95bd82cbc53164a93e8f6a1264e42bb35a569c8bb1"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/service.py": {
-      "bytes": 9688,
-      "sha256": "825529148c0c668df47f94e440f3e44760de70a1618d645752f75238a762365f"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/state_store.py": {
-      "bytes": 4502,
-      "sha256": "6b81eead10f0e911eb18a28cea9aca213f02b9d92ccf9afd116691f71510101e"
-    },
-    "overlay/yellowstone_python/yellowstone_python/park_runtime/terrain_pack.py": {
-      "bytes": 9251,
-      "sha256": "fbf0fa22ea6bbe31857052ecb4ed6edcc35c186b1f71d41e79936d5fdc562c6a"
-    },
-    "pytest.ini": {
-      "bytes": 41,
-      "sha256": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913"
-    },
-    "reports/python_tests.txt": {
-      "bytes": 99,
-      "sha256": "af27f3b88e23941cd91ff9bde8e66237908b6d3b8c7a45ec55387a28ce6e5680"
-    },
-    "reports/validation.json": {
-      "bytes": 810,
-      "sha256": "52feb426e42730b052907a13a287e35bc41963de675ed15287e39535217b2a0e"
-    },
-    "requirements.txt": {
-      "bytes": 29,
-      "sha256": "d339cf901731d65defa00e0f4ca2c67549d733ad4b09657e734ee7371772d8ea"
-    },
-    "tests/conftest.py": {
-      "bytes": 137,
-      "sha256": "be925e4107c145694df57e49d8f081a5b8e3410cbeec4c6dddc18a3361079710"
-    },
-    "tests/test_runtime.py": {
-      "bytes": 7373,
-      "sha256": "1feb254d1b6a3a55fb32f84983a706ee6969e522d30e8ecc50d4c3f1e7ec7528"
-    },
-    "tests/test_service.py": {
-      "bytes": 2924,
-      "sha256": "378bfdace952b727b92af024948ff57ac6a672dcc77abe9a392d9ccb2cce655b"
-    },
-    "tests/test_terrain_and_transport.py": {
-      "bytes": 3431,
-      "sha256": "90d04a712dc381f8c341801d11f5a415931769e5617041f1019d391627f54489"
-    },
-    "tools/install_overlay.py": {
-      "bytes": 2028,
-      "sha256": "8bbcaec4d773027688015130d16caf52f586cde02ff74764fa7694a7b7e3a906"
-    },
-    "tools/prepare_demo.py": {
-      "bytes": 830,
-      "sha256": "e40d4db6d39451ded60f9ddf5db1824a7201b1888d8753e7935c4b056ec2fb74"
-    },
-    "tools/verify_baseline.py": {
-      "bytes": 1252,
-      "sha256": "be6d9ab19267b4575d7775da0a141ca99685d630cbe37591bbe6b74ca79481ed"
-    }
-  }
+  ".github/workflows/tests.yml": "e954a407c4101009165a0cbd261667b83e5f81ccbe8a424dbe00c1bc8fd303b3",
+  ".gitignore": "408b58a600ee8ab9769fd9315339d1e4c9760a5ee1209ffd5f94dd92d9ecfbc7",
+  "README.md": "a49352fde1ecc9f5487ba79ccbfad7bec180686e4927659d871e9024fc031031",
+  "baseline.json": "b16bae6d327e0136e52f776048b39257c985329f656154de2db6a5a7d83d79f7",
+  "demo/data/park_demo/catalog.json": "faf46170a8704b37f9c360659ebde31d8ca3df019bf42711ccaabcef1dc14b05",
+  "demo/data/park_demo/synthetic/0/0_0.f32": "80de8eb64bf3deb45c7f05ed3baafc15e6f767f3380a42bc9199179d245c2912",
+  "demo/data/park_demo/synthetic/0/0_0.json": "725de40db08796c10ff5a3108906005843097d74fb773d635cf0ab8926f80f4f",
+  "demo/data/park_demo/synthetic/0/0_1.f32": "5dd58d66c40ba432bbadfa20d776f430e1429272eccc43759168b64c87f56b37",
+  "demo/data/park_demo/synthetic/0/0_1.json": "977b9863dce595e7fc4e136ec873f855f2db3f32bd538a6e4082861d3c381a12",
+  "demo/data/park_demo/synthetic/0/0_2.f32": "6dfbf21c74fdbbd4b3f6da2f08ad358d89b832e5e8aed04f5b54a30481d9bf99",
+  "demo/data/park_demo/synthetic/0/0_2.json": "beeb8bcf5c72094596ffdcea544fc8bc34f5ae9cf2dd1799171af69df26be823",
+  "demo/data/park_demo/synthetic/0/0_3.f32": "3e243aa78cab3893fdf1cc4694f307d7327cc4cb33757e7b8465a398a1d1f955",
+  "demo/data/park_demo/synthetic/0/0_3.json": "054ab4e4b9f75e272cf7964e673730bf02c783ba4601f52503a2ef20a3555b10",
+  "demo/data/park_demo/synthetic/0/0_4.f32": "753b3ca873dac1291ef28e29af7b44597dfccfb323cb6d6299a7938772ef9d66",
+  "demo/data/park_demo/synthetic/0/0_4.json": "c16939c3b12a577b014dd39f5d7ae6617c493d0fa9e18d7a15db6c8fd6b29957",
+  "demo/data/park_demo/synthetic/0/0_5.f32": "c214a03ca6adba60d60c92440cc2e9996ee5844d7682ba51dfc0e7973f3f5d71",
+  "demo/data/park_demo/synthetic/0/0_5.json": "4011f79ba04baad27d20d238063f0cca7b75d78c4b8dbcc66b897e5bc14c04bf",
+  "demo/data/park_demo/synthetic/0/0_6.f32": "f14a7a6861e1c5e3bfae0b5483e3171d022adf384893a4fc389f4c3534c76258",
+  "demo/data/park_demo/synthetic/0/0_6.json": "1bfe07f31345659228afb177468ceadc7f8643697118ced7826fb69a44297cdd",
+  "demo/data/park_demo/synthetic/0/0_7.f32": "1e1c7300328ea75b8c598a36ec299973f2c4de489f68ed9ef75fdacaa1f1751e",
+  "demo/data/park_demo/synthetic/0/0_7.json": "1522d99c7be78b68012538e43bf7c81dc63f24d9b6fb58c263f2c46e74506117",
+  "demo/data/park_demo/synthetic/0/1_0.f32": "ccd4e18a40e3bfb70228cb50f3b0c1d68e7ecce06dca9e736b7678ff4091c505",
+  "demo/data/park_demo/synthetic/0/1_0.json": "2027f79671adb159c694dc62dc6aa37f035da9881853f7cb2f01ea8e1d62bd47",
+  "demo/data/park_demo/synthetic/0/1_1.f32": "ba008371aa7bf824a6b071a575a8ed717c5ad538ec59333e2d4caa82e7ebbaf2",
+  "demo/data/park_demo/synthetic/0/1_1.json": "b63d77e3013b455c3417b63e7ea6a48e2dbc2cea2409375c67b19f74e6ca8154",
+  "demo/data/park_demo/synthetic/0/1_2.f32": "f682647613cc32440f9efce16904e86bc135d7793ca508bc97f233fdfcd35165",
+  "demo/data/park_demo/synthetic/0/1_2.json": "4392981d65a80c8ff1ca5208267a6a5e91703fe16913b0fa2b120b1242f76685",
+  "demo/data/park_demo/synthetic/0/1_3.f32": "9b19ad39acb5ef5cc32da6f471557b1e0cb942470dd799f1bd437e002a2fc9b7",
+  "demo/data/park_demo/synthetic/0/1_3.json": "bcf122c5fd3c2fd9174239d86b4aa880d5f50ae29391985249e1d246597909ba",
+  "demo/data/park_demo/synthetic/0/1_4.f32": "896803909281b1de2d95d92f7addaf22ed2fbcd44e74de7fbee91768e8d80253",
+  "demo/data/park_demo/synthetic/0/1_4.json": "cd191467224c1c64f754511fba4555784b90e77153b7bf5b0ed12419f8822d69",
+  "demo/data/park_demo/synthetic/0/1_5.f32": "48f0aaea1b9f87544b26a429ff4ae06e575a734cc4d85ba729ba785ddb27bce1",
+  "demo/data/park_demo/synthetic/0/1_5.json": "b815bf970246a1258e62303913e992886625f559f31147e631fa37812cf2f01b",
+  "demo/data/park_demo/synthetic/0/1_6.f32": "f84ea8189392e7d9daca9fa58e5318ca0cc33549c268180fb095296685534e25",
+  "demo/data/park_demo/synthetic/0/1_6.json": "67b598befb498103503598bff9ac76c5919a2048c31c67d6bed40fd71b418404",
+  "demo/data/park_demo/synthetic/0/1_7.f32": "0e857859557cfa910b3f483d62b841b0ed53cefe21a1ae50be41b9f25c46de9e",
+  "demo/data/park_demo/synthetic/0/1_7.json": "c7d1d2672129de76559ea68b2ad0791c1c7e27d4882d0d6a7d11ef66dd1fea15",
+  "demo/data/park_demo/synthetic/0/2_0.f32": "2a6ea0eecb9877db3addc0965f9cddce904ccda5885f18c82796955166374e9b",
+  "demo/data/park_demo/synthetic/0/2_0.json": "1b4af77fc42b347251f7c20ccaf3d7e0e9fe2b2e521759605ee0edb9c6d01989",
+  "demo/data/park_demo/synthetic/0/2_1.f32": "f39b0fbd60b13dd2b35e2883b54de08a36edb4a6343ea57ac089672e1bbf0401",
+  "demo/data/park_demo/synthetic/0/2_1.json": "7905aae5d4d90283e369cc8d7c20c911ea9970753956e3911f6c579526e953f9",
+  "demo/data/park_demo/synthetic/0/2_2.f32": "248f8f7f512346b21da9527bb31b5ea7c6f56d63b4d38c04edb52949295f1065",
+  "demo/data/park_demo/synthetic/0/2_2.json": "880ac222a2a1b64f541820119c2c1b212bf7fa1c86e3ac19aa1b9fe8b78886d8",
+  "demo/data/park_demo/synthetic/0/2_3.f32": "9a16450af411e895a64088864bdb3d9ecc9ec6e6cf13390d068ad8b5b186e24f",
+  "demo/data/park_demo/synthetic/0/2_3.json": "af1ecb25dd4ce3dcb4cf254b806b115e1aa981d5e10f07a5dc48f5803a76e2f5",
+  "demo/data/park_demo/synthetic/0/2_4.f32": "97acd672427ace22a0d731e76fad348a2414d14575aded692c1ec0e28b87a3b4",
+  "demo/data/park_demo/synthetic/0/2_4.json": "9f7aafe36a4e1a02240a5152bcd5b7a710c8370eff675734e8e103406e323a5b",
+  "demo/data/park_demo/synthetic/0/2_5.f32": "1b87fa3037534a0ea8ae181594d4ec3c95982989d30c6827b24556ec1cfda1d8",
+  "demo/data/park_demo/synthetic/0/2_5.json": "55bc69efa384fcfbddf1952d8d60c8b66ef8491d6eb5d33860d18b505f6b7d7e",
+  "demo/data/park_demo/synthetic/0/2_6.f32": "5debc8ebc069a5e43b4d11145b2c78a621e9b269f55448982627f88d76fe58e9",
+  "demo/data/park_demo/synthetic/0/2_6.json": "fac88e10ebef9f2f36f4f96a429e142b1f86350d81c50765305db9f40dbe84c3",
+  "demo/data/park_demo/synthetic/0/2_7.f32": "4d4901df2615362fa005e66b09358ad7c2884fc91b34921bd2a26cb90af8293c",
+  "demo/data/park_demo/synthetic/0/2_7.json": "82c4f6ce7a01aa9321a4ddb88623899dfe80ab0c87e052c09ab7c52f20124878",
+  "demo/data/park_demo/synthetic/0/3_0.f32": "c6867c6e14bc6c1ed686095d1fd4f1879342bb63a1d7aec1dc2c624d0c27a6ad",
+  "demo/data/park_demo/synthetic/0/3_0.json": "552d9ea81eae58e5315e2a9d57be63990de1850ecfedf5ef5222bbaca8fe6b13",
+  "demo/data/park_demo/synthetic/0/3_1.f32": "354c3af83c4502f14922680a646d2b5edc71e9f717a5d73a6219e7d3720cb772",
+  "demo/data/park_demo/synthetic/0/3_1.json": "6eb41f778422ad88a5e84be9c783dc142d059e4c7f13590077846d7d5b5ff238",
+  "demo/data/park_demo/synthetic/0/3_2.f32": "8014ecb0835afe0d1dcf43f6bc5936b0636dfd7e5aa16fc96f9382b2599166c0",
+  "demo/data/park_demo/synthetic/0/3_2.json": "4fea233b28ecc9109e28aa0df39fb370497cff7020c25d1cb11fe6feb8952c70",
+  "demo/data/park_demo/synthetic/0/3_3.f32": "d17c9fcf7b6e6205f7c33c877156f3694b6629002df21805741f5827fa88b93d",
+  "demo/data/park_demo/synthetic/0/3_3.json": "e2a62e1e40e4dc65b21cb62cf52277be311042d80ea0c0dc86120b3d6ecea7cd",
+  "demo/data/park_demo/synthetic/0/3_4.f32": "be8232ad0827a6412e32f148b9db15c1df23d5782e8389cd16d2f3e5ee0064c7",
+  "demo/data/park_demo/synthetic/0/3_4.json": "d3968f0a857068746c4833b959f394709f332f1cd66d338a9bda8a236d8ecc55",
+  "demo/data/park_demo/synthetic/0/3_5.f32": "d43aecbcef2736c84e43c8ded3d7ee568e2bf1b2522808eca198b7f4c1e9afe7",
+  "demo/data/park_demo/synthetic/0/3_5.json": "0ef33bc0ae4ba9624441f6b13f116e5e68fcb2ed3d6fa9c4493ddb71368fa629",
+  "demo/data/park_demo/synthetic/0/3_6.f32": "12663c33e10fc19889bd91c996ed11f2d1fa5b51067f799fa7b9093146d81e80",
+  "demo/data/park_demo/synthetic/0/3_6.json": "2799cd98e531848956fa66548088bd646285cc12ea6d64120c27dfc613a4d545",
+  "demo/data/park_demo/synthetic/0/3_7.f32": "3fd4b983671e70678054074543ff4bb1b3b81edd9c1be0634cf024c6fa008673",
+  "demo/data/park_demo/synthetic/0/3_7.json": "4090074a39aa6233a2ff8d7793d12fd2668fc62631abf607ed43d0b4a496f152",
+  "demo/data/park_demo/synthetic/0/4_0.f32": "403fb2e6ac8afaedfd840e37a1b55b35d099c1ba582060b84fdf86c6efbc2496",
+  "demo/data/park_demo/synthetic/0/4_0.json": "73a928a15759f6fb4f2f3c4e76b59d03d0902ccb6b6cc7b741d9a204abe85437",
+  "demo/data/park_demo/synthetic/0/4_1.f32": "22e914aff632e68a051aed8aaf8d9353e45a256cc80f66b3dde95f35dcfbfedf",
+  "demo/data/park_demo/synthetic/0/4_1.json": "4689612b9f00fa87209ca8c3666bbb63a841c9630eab0b213c573e65946b5132",
+  "demo/data/park_demo/synthetic/0/4_2.f32": "a0896290d094ee56bfba262306899e04e827075f0ed9ab3ccbe10ec82e1a7aea",
+  "demo/data/park_demo/synthetic/0/4_2.json": "8bd96398d750cf95ccfad1790137f2449c14530e4cf68250958404015b995c12",
+  "demo/data/park_demo/synthetic/0/4_3.f32": "59b8eb9ac6b27c29c6b9ec8fc81c2394e9b75bb27f3dfa2f804eb1ea2512b50b",
+  "demo/data/park_demo/synthetic/0/4_3.json": "30c7a9bd30484603b8295bd0afd11b2d7abdd82e56e1d1dc6d4fe615b2c82941",
+  "demo/data/park_demo/synthetic/0/4_4.f32": "07d10e04f622798d0c68b26abf3d914f354a1c8455ffe624a29e8ab8fd32a082",
+  "demo/data/park_demo/synthetic/0/4_4.json": "bc06c13af7469265c2a18c2e4cba409446a61e61cfd8d8901471629c4989ab2a",
+  "demo/data/park_demo/synthetic/0/4_5.f32": "b7ff261a6e7a9f13b54bae3ba138d0136f215598f08c32788829fddc77e5de21",
+  "demo/data/park_demo/synthetic/0/4_5.json": "79f0ea008f2e6721f357ccc1ebb0925c58c62e16159139b7b3768c7ba6530fc8",
+  "demo/data/park_demo/synthetic/0/4_6.f32": "053b34befd6a39ac093d4166372696e6e83cd21cb80dbb1ac7efe180f529b786",
+  "demo/data/park_demo/synthetic/0/4_6.json": "efff493bd78aae77a550374442b1d5973871cd4633325c87744b2cb47dc688c6",
+  "demo/data/park_demo/synthetic/0/4_7.f32": "343c13372efafb684026e04640b0dc91d9c1dba213c9e77b52e82d6bf7323d27",
+  "demo/data/park_demo/synthetic/0/4_7.json": "202e4607104b6212f2ba88d63f9621125f25b745ea95fa82b0fc46d21b7d6f51",
+  "demo/data/park_demo/synthetic/0/5_0.f32": "4761184d8ddc432392531bb5db0aac3ab45e588b18d1ee55a64dfcb23c48573a",
+  "demo/data/park_demo/synthetic/0/5_0.json": "44bb112a71b11e7b35a2cb27b4de2540be8964efc460d83daea3d34ef4f3c999",
+  "demo/data/park_demo/synthetic/0/5_1.f32": "506811a41d77ffdd0f2b2303796a5b25f9dd2b8291b7322a00da1e89a567e32a",
+  "demo/data/park_demo/synthetic/0/5_1.json": "d1f949e78f91929915ac331cae1311a974ecb15fb3cfc66415d597fbef263c9e",
+  "demo/data/park_demo/synthetic/0/5_2.f32": "2158c4cf2571df28f15eeb1ae4ec87209537bae559735278f9adf1817e65467e",
+  "demo/data/park_demo/synthetic/0/5_2.json": "b4ee6ca831599b6ac9b82781b55f0627724555104cc48bb64fa1394ea9e9790b",
+  "demo/data/park_demo/synthetic/0/5_3.f32": "d98f1f3377f556d35e44e4dc146813cf7e597ad423030f6c5cff907cc50cecd5",
+  "demo/data/park_demo/synthetic/0/5_3.json": "062ae1b62c32d6353038ef05539934824b749d56a6022a976c01225c656a7dc2",
+  "demo/data/park_demo/synthetic/0/5_4.f32": "a5f2aa2112ffe84653a1512104996652db9b6b43e5b9f9a45e328b7f9c844944",
+  "demo/data/park_demo/synthetic/0/5_4.json": "ddb91bf763daee3569b4ea2197c9fd07642b0e0f4a86160912dfe472d484f068",
+  "demo/data/park_demo/synthetic/0/5_5.f32": "603bddcc7cdff1fb0bbef405b2ec8c998be34a8ac8f9d97264cc32898d97a0f5",
+  "demo/data/park_demo/synthetic/0/5_5.json": "d2b8d61b50c82751f8b9d9ee184be8b5fd3fe95d9d01fae1ae6c24add66eae13",
+  "demo/data/park_demo/synthetic/0/5_6.f32": "0757982fc26895034477bc7b2dd0cbe3fb4d70d9c2cbd0a9a5d7fe2c26811277",
+  "demo/data/park_demo/synthetic/0/5_6.json": "3917f998292177a813ff81c7420f481e1f12bb60e4a85cd39132f25974c44112",
+  "demo/data/park_demo/synthetic/0/5_7.f32": "52a2630be00eb7cdaae7658b059a4a36989eec80ee0af6b3a9ba9a81150dd73b",
+  "demo/data/park_demo/synthetic/0/5_7.json": "43e6665c40ae9af7a897684e886776fb7f5d5eb1239103bd0930dcae0e2f03d9",
+  "demo/data/park_demo/synthetic/0/6_0.f32": "7569c872017b15cfd8a8a751621135055ede29ce68128b0158ec147f75f6fca7",
+  "demo/data/park_demo/synthetic/0/6_0.json": "6f347e0dc970e8c792fbd12d98886921ac6ffafcf91e167cfd06799c68f7b3c3",
+  "demo/data/park_demo/synthetic/0/6_1.f32": "f1cf3dd3ea8501ef528346f5aff0fa19f5f5922e643b1c4b74ec1a825877312d",
+  "demo/data/park_demo/synthetic/0/6_1.json": "46adbfa7812153ef57a3d9a04a62b0bd55f1617ab366599f75cdbdd746b32e2e",
+  "demo/data/park_demo/synthetic/0/6_2.f32": "0680c31cd96792902ffcb34b3cb76918fc8cd1403701d81961a8126514efa741",
+  "demo/data/park_demo/synthetic/0/6_2.json": "e1a2ecf7b0d11ffa879b0abbc975ad49a402d494b612921ef48c5c7e5b6c0c62",
+  "demo/data/park_demo/synthetic/0/6_3.f32": "9fbde2dd9eef53871c202257bdfe691ae48346c6740edf75da5d9aba2c4dc14b",
+  "demo/data/park_demo/synthetic/0/6_3.json": "525a7eabeda83f20cd10062e1e29133544ccb4712ef199baabb38dba95bef57a",
+  "demo/data/park_demo/synthetic/0/6_4.f32": "bd7085db0a7822fb1705d67d89e8983a86b2f5e99e9a23731650d8ae9b6b42a4",
+  "demo/data/park_demo/synthetic/0/6_4.json": "a6bbf4c4d405f08d692bc772c4240e3e84d33057583b9d27680fceef169690a0",
+  "demo/data/park_demo/synthetic/0/6_5.f32": "77f6401979d9363dd8e55e6541c94c2ab5a71d0d40d5ec73c45bd531b0452946",
+  "demo/data/park_demo/synthetic/0/6_5.json": "0bf6a435c5bb5c86beaebe52bfc20cfb6abcc30f849147e3e0357fbf0f5cb5f4",
+  "demo/data/park_demo/synthetic/0/6_6.f32": "5b8c0fe3e63e9de5aa7d92ae700aa27c4b914ebb4af624562a0880b067d3e1d0",
+  "demo/data/park_demo/synthetic/0/6_6.json": "00ccdc6d35a3cf617e52368f76e3b595092869b60d52ca5badb7c171a32c0974",
+  "demo/data/park_demo/synthetic/0/6_7.f32": "9b2a3df40911b022e88efa2b61dcab402ee558160d1a75414342b0d8b2eb8d7b",
+  "demo/data/park_demo/synthetic/0/6_7.json": "900c694ee8bc7ff04ef3c7b91d0aee97342dfd8be86de3fb3e469813bff1f167",
+  "demo/data/park_demo/synthetic/0/7_0.f32": "e28f937e5fc04dd9a10a6174d9457889528e0065943088bcb5e95f369b86ffaf",
+  "demo/data/park_demo/synthetic/0/7_0.json": "59d3ac27d0eb965a4c4291eaae5a1128f3133b4607b83ae0c4fbba1ceadeb6f2",
+  "demo/data/park_demo/synthetic/0/7_1.f32": "5fb78ba4cb1befc25f36f643a8e28b0e45ea1163760eb945f9f66d13955279fb",
+  "demo/data/park_demo/synthetic/0/7_1.json": "b2f26a40d551e1676649a8151a7256b14dffaa20acf37d2e1092ab242aae4170",
+  "demo/data/park_demo/synthetic/0/7_2.f32": "2bebc7b35d07f0fde2020fd3428bc31347633d14ce6205d246c44bf15860a435",
+  "demo/data/park_demo/synthetic/0/7_2.json": "41dc1f36b56388c7d4c4c9e5a8ec26d4433fe73c1614c63062ea2b8933fd071d",
+  "demo/data/park_demo/synthetic/0/7_3.f32": "ff01436662bf6ad3dcf5c9d04d558497eaca589760bcdb51e997784e14e1ceb7",
+  "demo/data/park_demo/synthetic/0/7_3.json": "c4475dc5348c20db319544a11d3292904c4cfaa8c40a1f4789a8cff09eb2ac38",
+  "demo/data/park_demo/synthetic/0/7_4.f32": "ed566d818da40fc1d9425dcc86fac5580bff606b2fe83ffed2c0c487d64b804f",
+  "demo/data/park_demo/synthetic/0/7_4.json": "9ecd33362f37a8705d60327786f47ba2141189960fdfd444afa7f02dcb91ba10",
+  "demo/data/park_demo/synthetic/0/7_5.f32": "a8a469e7b69ea7d52165f329f74733625f666973cb21b976c740c2fa6960fa40",
+  "demo/data/park_demo/synthetic/0/7_5.json": "bc4f134f81a0b344b31a36da92d3fad96cf0e70f12e72b80266aed6c35838bd5",
+  "demo/data/park_demo/synthetic/0/7_6.f32": "bc11162f5bd1d8f896370d2d2b1e45a5b7754cf2c4d409d0d5c30f1932750421",
+  "demo/data/park_demo/synthetic/0/7_6.json": "de8c90991ac097f8f9b4e28d35011d29786554559edfa2b1a332fba255382733",
+  "demo/data/park_demo/synthetic/0/7_7.f32": "0996b5adc3812dea984071d5496f798eb1178c98101541ad59950ad5e4dd754f",
+  "demo/data/park_demo/synthetic/0/7_7.json": "b02b7fa155d78ebadcff189d9257fd3b3e3ea698f0010a51194f724ee5332438",
+  "demo/data/park_demo/synthetic/1/0_0.f32": "19e7cc26badea23195eb3cda65d6a857617ea7d54e75c0c941419ccea2a41a4c",
+  "demo/data/park_demo/synthetic/1/0_0.json": "1fb7b74b1e7efb32da3cdd776c217732944ac7fa780e034078a8792573fed3b5",
+  "demo/data/park_demo/synthetic/1/0_1.f32": "e2d531e9e67e299f1707581e0b6866b2f57a713f8c16d8f95c445a8549ecf89a",
+  "demo/data/park_demo/synthetic/1/0_1.json": "437ec4d68b770b8008225f39cc4717fec4758640a7596e4a8764f63e83cba363",
+  "demo/data/park_demo/synthetic/1/0_2.f32": "a148e2402e03e7b6569dfad0906cc2b96dbbeaec19f3b8da39da5d11d3ab2f33",
+  "demo/data/park_demo/synthetic/1/0_2.json": "5dc5b95df1d257019a82a042df86156f9edc67bb359972c0a27b8935aa822011",
+  "demo/data/park_demo/synthetic/1/0_3.f32": "90ffb1dd680f094102f183141ba8a81653917d4b81f4a3125b180c97d5b84c97",
+  "demo/data/park_demo/synthetic/1/0_3.json": "21eb3268a0b6fe345c4d7ff940b474c56a6f828b4c3f2cf69e9062336eb8002b",
+  "demo/data/park_demo/synthetic/1/1_0.f32": "3a321bea49ec47ca456a807b0244a134e98fd5755f762f1bd53bfdd4c985fd21",
+  "demo/data/park_demo/synthetic/1/1_0.json": "f552d1b0f99fe927c48cb2aba76f64eb97244b0a8d64754614a37a6fdc91302e",
+  "demo/data/park_demo/synthetic/1/1_1.f32": "bbfa1b7ef12dac6358b5ae3193f3653bf40730888a8bc4b2aa33e4db512a5e6e",
+  "demo/data/park_demo/synthetic/1/1_1.json": "afea7cf132860c2490d6ece5ff1032ff1383f39e1a9038cbc8164fe3afff796b",
+  "demo/data/park_demo/synthetic/1/1_2.f32": "61abb3b7daa0b12e0d99023fd939f76455c7863851f7553020734ad253c33373",
+  "demo/data/park_demo/synthetic/1/1_2.json": "3ddfab40f243f60ae18b1c77e55e2a73d243906230c176595cbcf1aa904814c0",
+  "demo/data/park_demo/synthetic/1/1_3.f32": "3f7f04b12371510ba91774a6ade4316960271e38c184d6d72068581aebca62d3",
+  "demo/data/park_demo/synthetic/1/1_3.json": "34ddb2707b5485c116ac4fc9726ae35ca817d189020f7cebf63ac423b8865bd7",
+  "demo/data/park_demo/synthetic/1/2_0.f32": "bb3ea2f4f4714e134c122d6b8af44bd44d534791ea97e63c35bf5d5cc97b627c",
+  "demo/data/park_demo/synthetic/1/2_0.json": "78e8a18f12626fd5f283286a5d09ff78cd37d5551da62712e21505f97aee5f0c",
+  "demo/data/park_demo/synthetic/1/2_1.f32": "28c76a517bdbc977a9da93554db0109a3034d0742556c2b4ff7a5475c69d0179",
+  "demo/data/park_demo/synthetic/1/2_1.json": "380cecd0c8aa57cdc1ed841a3abdd9e1d891ab22125dece760dcdbb58ca9e604",
+  "demo/data/park_demo/synthetic/1/2_2.f32": "3e72050d9e8174e2ddea57299b7ad8512c39e909d42520ad95b431f5f8f4d274",
+  "demo/data/park_demo/synthetic/1/2_2.json": "5d20e22dd90efb3ad40ca624e5155ccf57414825121b729e759d35592a23f50d",
+  "demo/data/park_demo/synthetic/1/2_3.f32": "64cda58ea2bad4de9b74e737aba88948370a18de4e6afa79259a80d403990489",
+  "demo/data/park_demo/synthetic/1/2_3.json": "cf20c8409eaac70db1f21f9e9fbf1b7f1979d182b312c9acb8be34cb48a28a52",
+  "demo/data/park_demo/synthetic/1/3_0.f32": "d9fe2e8d34bf02b23c871e419ec53a73b741b2f20d350be2438d18938b5f3955",
+  "demo/data/park_demo/synthetic/1/3_0.json": "05e9437d5a63022e2e06caa271599db56c1239a9328ffcc279ff8d2219e38613",
+  "demo/data/park_demo/synthetic/1/3_1.f32": "ee0cdd7f6978c19b0d6023e8b272d8fc798074f92356a5c399b6c1d10e0fd530",
+  "demo/data/park_demo/synthetic/1/3_1.json": "bb74f790fac166beb4f70b3c2bcde8f362486049bf57dac28226649aec1919ae",
+  "demo/data/park_demo/synthetic/1/3_2.f32": "09c0ae6e8337e0f8324edfa3b11908a9ab454564146cb19a0bec771aac6dc813",
+  "demo/data/park_demo/synthetic/1/3_2.json": "9f87804cd0356b54a09c2a7f4a1e5d6e8faa0fad9dd37880918fbe494b424a12",
+  "demo/data/park_demo/synthetic/1/3_3.f32": "d4e75bfd9e38d83c1d6714ca6240dede355c0a19e86f46c34a02de0f8687dc8a",
+  "demo/data/park_demo/synthetic/1/3_3.json": "eec08418745dbd82ff1d7a96a37a9ad93f74e1aca81c95afdfccb138bd2cce31",
+  "demo/data/park_demo/synthetic/2/0_0.f32": "4566badb2a01c0c71d0cc2ab1bf17df856da8f69111dbdc4be1156c25d4a218b",
+  "demo/data/park_demo/synthetic/2/0_0.json": "da1034b33076aebb518c175bb7f3cbb1ed312c2a921ea6a58f33bab7eda1a3bb",
+  "demo/data/park_demo/synthetic/2/0_1.f32": "000d135cdac7e6675553898f13b4e6b352589a31625458fbd31cfcd668ec18b8",
+  "demo/data/park_demo/synthetic/2/0_1.json": "50e91ebe3146c59e3976c5b06e7a53a2d83a074c5fc117d2791f43168e7e0b40",
+  "demo/data/park_demo/synthetic/2/1_0.f32": "b8fdfa66ef777d862a0c126b1108700f630a5ed42cc379a9caaa326abf8ca3ab",
+  "demo/data/park_demo/synthetic/2/1_0.json": "3b692f6af3efd0a3afd753b824641c32d270cd269709b4ab626fc398ef04edc7",
+  "demo/data/park_demo/synthetic/2/1_1.f32": "e0e206721c1b5f210d463f9af386b476e5ed85d2182205149c93354d2396caa2",
+  "demo/data/park_demo/synthetic/2/1_1.json": "3b164ade9182bbe55daaffded03fc593f8a54b80ca8f5ac9685faf196f870439",
+  "demo/data/park_demo/synthetic/3/0_0.f32": "00bbb5a5550afb0404e38a390838796aac65c6dd6a80ffb1151320af80597b80",
+  "demo/data/park_demo/synthetic/3/0_0.json": "f451a262adbee2f1e3b9b7ba396836eac6f1730de400ef861d3c9a2226180178",
+  "demo/project.godot": "fd2e76af80f67201219c0d67af0d6c53dcfae8f40d0b71306d4ff5d1fe93106f",
+  "demo/scenes/park_streaming_demo.tscn": "7751bfdedcaf3d06c49e05bbda3f4ef3e08032346cb84bce46f046e00e036d69",
+  "demo/scripts/park_runtime/demand_planner.gd": "9717a501ce1d34bd072a7cb04b0789e557ceb9b501227c330fc3069dec9e1dd3",
+  "demo/scripts/park_runtime/demand_planner.gd.uid": "c79d932745e674effd65867d9f12582dbe0ca336d896c165bc824dff7b9398aa",
+  "demo/scripts/park_runtime/field_buffer.gd": "4f55290e813233845fdab9b289deede5bb97b720de1c2e9adbe8b489ba0ccc04",
+  "demo/scripts/park_runtime/field_buffer.gd.uid": "5ba1d578203b3b62ac17ab185b1a79c4f0416718aa20568040c3d8b8608ed534",
+  "demo/scripts/park_runtime/park_client.gd": "54d14d471ed491464a08fcb0f5d01a2b8db5cc63ed52a257fd3939b17540c0d0",
+  "demo/scripts/park_runtime/park_client.gd.uid": "5556aa7cf8272db3f229e2f7f29eb3a0e9307acac2f00325999e27e3239cec81",
+  "demo/scripts/park_runtime/runtime_monitor.gd": "d133a40dcccbaec94046b02af8ba2563f0b8fa2eabb2d5d2fe236abac0ac14fe",
+  "demo/scripts/park_runtime/runtime_monitor.gd.uid": "a92930a03047dff458e23732347eaf5fe741e0be34be6896280d238a8710fca0",
+  "demo/scripts/park_runtime/streaming_demo.gd": "80d4c0ed1b37bbf090168d144933fbc005c49ee53eacfcc8ec5a179387ba2ca9",
+  "demo/scripts/park_runtime/streaming_demo.gd.uid": "1eb2be2f2f2e90763834fec1be80501b6031571325360fab13dfe59457e3ac4a",
+  "demo/scripts/park_runtime/terrain_job.gd": "7bef076f68f47c85b96c0f15808c8e181fb442eb2fc03663c68ad078e47d625e",
+  "demo/scripts/park_runtime/terrain_job.gd.uid": "ad832d9ee76f91e93516931fd2883f3377d957fce747c330cbe53fab0351a9c5",
+  "demo/scripts/park_runtime/terrain_streamer.gd": "58d846e39d951e7b09cd407f7f9ae5417f159d225ea5b2c0a64c5d2d33ba32e6",
+  "demo/scripts/park_runtime/terrain_streamer.gd.uid": "de409bf37aeadd62d5ba06a96fbec4db8cb1d84986415eda1d910add169128de",
+  "demo/scripts/park_runtime/tile_visual.gd": "6280d712dcaa74983d5229f915125cd4a6a02a915257ae70db5f10245ab5b286",
+  "demo/scripts/park_runtime/tile_visual.gd.uid": "3fe077f46972faba0e723ee4078a7465b39108b527f2c100f15ae1733199bbd3",
+  "demo/scripts/park_runtime/vegetation_batch.gd": "75fafd4ef7b2ff59b47dfcd7b9b147ae243c12593c0d30e20ec4757a9603df9b",
+  "demo/scripts/park_runtime/vegetation_batch.gd.uid": "2566905b75f4a086699d3bbd01439ff7ab2cafb0d6a37ef2af2e183df5124de5",
+  "demo/scripts/park_runtime/world_frame.gd": "eff6ce778c4445b33859c5dcd11870d6c9734b5bd059e2fea22c6a5ff6392382",
+  "demo/scripts/park_runtime/world_frame.gd.uid": "a77b5aaadae28af3e59f59ea12902b24c924cb500a3e00edba8fe1787a119ef0",
+  "demo/tests/park_runtime/benchmark_route.gd": "2687c440fefc254f910fa3f107f8ece1c51a1ec11e546775eb19a40db8bfc4bd",
+  "demo/tests/park_runtime/benchmark_route.gd.uid": "a0c9ded29fb231c33162d8841269ac1f68d67e1d2fd3caffa18ffa46e9401351",
+  "demo/tests/park_runtime/run_tests.gd": "41c33b7526a0229127b88fd5e48e590bde70db99cf3e59bda54cedf0b8e492f9",
+  "demo/tests/park_runtime/run_tests.gd.uid": "c36a3912729662a0ba20eb765757b5086ce6a0e157af7b9932e29036ce350218",
+  "docs/00_ARCHITECTURE_CONTRACT.md": "0d48b6a6e87c926b3ffaae94ac0960481cdf6762bbf6279dc2e91cc9845b53cf",
+  "docs/01_CURRENT_FILE_EDITS.md": "216a11595b461bb7dae4829987e8566f82006993f09cb0cec2246c0c7eaf4692",
+  "docs/02_SIMULATION_AND_STATE.md": "6060c2b4bdcbe3c2073a480f947251437629f490dc6c5967b1e27cabd5948f47",
+  "docs/03_ACCEPTANCE.md": "e0064d018c171ba9605f9edc9c289b2eebc0301573638b3981887fc24a9da665",
+  "docs/04_IMPLEMENTATION_STATUS.md": "718671ccfd0d680c1e23c4d4d05d60e8c11c9f751954cdf12dd4a763d79791f3",
+  "docs/05_SOURCES_AND_DESIGN_NOTES.md": "7023d77493b0f8c5a74df74b737051ca7bd6ca78124b630d7dd879abe66ba978",
+  "overlay/yellowstone_midway/scenes/park_streaming_demo.tscn": "7751bfdedcaf3d06c49e05bbda3f4ef3e08032346cb84bce46f046e00e036d69",
+  "overlay/yellowstone_midway/scripts/park_runtime/demand_planner.gd": "9717a501ce1d34bd072a7cb04b0789e557ceb9b501227c330fc3069dec9e1dd3",
+  "overlay/yellowstone_midway/scripts/park_runtime/field_buffer.gd": "4f55290e813233845fdab9b289deede5bb97b720de1c2e9adbe8b489ba0ccc04",
+  "overlay/yellowstone_midway/scripts/park_runtime/park_client.gd": "54d14d471ed491464a08fcb0f5d01a2b8db5cc63ed52a257fd3939b17540c0d0",
+  "overlay/yellowstone_midway/scripts/park_runtime/runtime_monitor.gd": "d133a40dcccbaec94046b02af8ba2563f0b8fa2eabb2d5d2fe236abac0ac14fe",
+  "overlay/yellowstone_midway/scripts/park_runtime/streaming_demo.gd": "80d4c0ed1b37bbf090168d144933fbc005c49ee53eacfcc8ec5a179387ba2ca9",
+  "overlay/yellowstone_midway/scripts/park_runtime/terrain_job.gd": "7bef076f68f47c85b96c0f15808c8e181fb442eb2fc03663c68ad078e47d625e",
+  "overlay/yellowstone_midway/scripts/park_runtime/terrain_streamer.gd": "58d846e39d951e7b09cd407f7f9ae5417f159d225ea5b2c0a64c5d2d33ba32e6",
+  "overlay/yellowstone_midway/scripts/park_runtime/tile_visual.gd": "6280d712dcaa74983d5229f915125cd4a6a02a915257ae70db5f10245ab5b286",
+  "overlay/yellowstone_midway/scripts/park_runtime/vegetation_batch.gd": "75fafd4ef7b2ff59b47dfcd7b9b147ae243c12593c0d30e20ec4757a9603df9b",
+  "overlay/yellowstone_midway/scripts/park_runtime/world_frame.gd": "eff6ce778c4445b33859c5dcd11870d6c9734b5bd059e2fea22c6a5ff6392382",
+  "overlay/yellowstone_midway/tests/park_runtime/benchmark_route.gd": "2687c440fefc254f910fa3f107f8ece1c51a1ec11e546775eb19a40db8bfc4bd",
+  "overlay/yellowstone_midway/tests/park_runtime/run_tests.gd": "41c33b7526a0229127b88fd5e48e590bde70db99cf3e59bda54cedf0b8e492f9",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/__init__.py": "e65013eb822df446b7999fd2b24d39dba5e027db7766cf0fde9e8fd93edbbdec",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/__main__.py": "8a40429955e2e5850bf2b0dc3143d42e5a9126c5216d6879b094004dcfd24d27",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/contracts.py": "389eb0101ef92d380977201a7cb9fbcdedeb9ca377623c2ab184421eb2e270d2",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/coupling.py": "4eb7c7d3256f336c96a10a203fd53049657569705e7dbf598bf00fd2ce996ee9",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/field_codec.py": "9cac0f0e06d5efddac1b9724e25c7c1f97175e50594388e1ac2d8b979658de39",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/forcing.py": "791412e0b230bb8e5dd71fe9767f4b03e17da3ca7a0fbdafbce9a6ffba9732ef",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/legacy_adapter.py": "30cb6799fc05cfc7133282bbba57074dde952e368abe70cfe9a3fca71f066b3e",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/reference_network.py": "ad19a8f1a7d524ec3d6616d3741759545df02d0edd53d632429a8a5d4fb6cce2",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/runtime.py": "07c1422e451e944bcf6d1c95bd82cbc53164a93e8f6a1264e42bb35a569c8bb1",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/service.py": "825529148c0c668df47f94e440f3e44760de70a1618d645752f75238a762365f",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/state_store.py": "6b81eead10f0e911eb18a28cea9aca213f02b9d92ccf9afd116691f71510101e",
+  "overlay/yellowstone_python/yellowstone_python/park_runtime/terrain_pack.py": "fbf0fa22ea6bbe31857052ecb4ed6edcc35c186b1f71d41e79936d5fdc562c6a",
+  "pytest.ini": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913",
+  "reports/python_tests.txt": "f448e5b64deca35c67220973ffe43b88930bf9ef85323d0c589c74198bb69f81",
+  "reports/validation.json": "d25f74eda296e67506ec2e6c9345c395da3e96bf8c88adf35552df40b248b512",
+  "requirements.txt": "d339cf901731d65defa00e0f4ca2c67549d733ad4b09657e734ee7371772d8ea",
+  "tests/conftest.py": "be925e4107c145694df57e49d8f081a5b8e3410cbeec4c6dddc18a3361079710",
+  "tests/test_runtime.py": "1feb254d1b6a3a55fb32f84983a706ee6969e522d30e8ecc50d4c3f1e7ec7528",
+  "tests/test_service.py": "378bfdace952b727b92af024948ff57ac6a672dcc77abe9a392d9ccb2cce655b",
+  "tests/test_terrain_and_transport.py": "90d04a712dc381f8c341801d11f5a415931769e5617041f1019d391627f54489",
+  "tools/install_overlay.py": "8bbcaec4d773027688015130d16caf52f586cde02ff74764fa7694a7b7e3a906",
+  "tools/prepare_demo.py": "e40d4db6d39451ded60f9ddf5db1824a7201b1888d8753e7935c4b056ec2fb74",
+  "tools/verify_baseline.py": "be6d9ab19267b4575d7775da0a141ca99685d630cbe37591bbe6b74ca79481ed"
 }

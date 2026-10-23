@@ -1,5 +1,5 @@
 extends SceneTree
-## Run with Godot 4.5.1. This suite was supplied, not executed in the build sandbox.
+## Run with Godot 4.5.1.
 const Frame = preload("res://scripts/park_runtime/world_frame.gd")
 const Job = preload("res://scripts/park_runtime/terrain_job.gd")
 const Planner = preload("res://scripts/park_runtime/demand_planner.gd")
@@ -70,11 +70,21 @@ func run() -> void:
             tile.install(data,null,frame)
             world.add_child(tile)
             check(is_finite(tile.sample_height(float(d.origin_x_m),float(d.origin_z_m))),"height sample invalid")
+            var resident: Dictionary = {str(d.key): tile}
+            var planned: Dictionary = planner.plan([d],resident,frame,observer,Vector3.ZERO)
+            check(planned.leaves.size()==1 and planned.leaves[0]==str(d.key),"parent must remain visible until all children load")
         var cancelled = Job.new()
         cancelled.configure(d,catalog_path.get_base_dir(),str(parsed.dataset_revision))
         cancelled.cancel()
         cancelled.run()
         check(cancelled.result.is_empty(),"cancelled work produced a result")
+    var client = Client.new()
+    world.add_child(client)
+    client.set_process(false)
+    client._completed(HTTPRequest.RESULT_CANT_CONNECT,0,PackedStringArray(),PackedByteArray())
+    check(client.packet.is_empty(),"missing service must not create a state packet")
+    client._completed(HTTPRequest.RESULT_SUCCESS,200,PackedStringArray(),"bad json".to_utf8_buffer())
+    check(client.packet.is_empty(),"malformed service packet must be rejected")
     print("PARK_GODOT_TESTS checks=",checks," failures=",failures)
     world.queue_free()
     await process_frame
